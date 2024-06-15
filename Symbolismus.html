@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symbolismus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: auto;
+            overflow: hidden;
+            margin-left: 30px;
+        }
+        header {
+            background: #f0c674;
+            color: #fff;
+            padding: 5px 0;
+            border-bottom: #f0c674 2px solid;
+            text-align: center;
+            position: fixed;
+            z-index: 3;
+            width: 40%;
+        }
+        header h1 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .main-content {
+            display: flex;
+            padding: 5px;
+            background: #fff;
+            position: relative;
+        }
+        .main-content img {
+            position: fixed;
+            top: 50%;
+            left: 0px;
+            width: 40%;
+            height: 100vh;
+            object-fit: cover;
+            z-index: 2; /* Ensures the image stays behind the text */
+            transform: translateY(-50%);
+        }
+        .main-content div {
+            flex: 1;
+            margin-left: 40%;
+        }
+        .main-content h2 {
+            border-top: 2px solid white;
+            padding: 5px;
+            margin-bottom: 20px;
+            background-color: #f0c674;
+            color: white;
+        }
+        .main-content h3 {
+            margin-top: 0;
+            color: #f0c674;
+        }
+        .main-content p, .main-content ul {
+            margin-bottom: 20px;
+        }
+        .main-content ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        footer {
+            background: #f0c674;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #0779e4;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .back-to-top {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        svg {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Symbolismus (ca. 1880-1900)</h1>
+        </div>
+    </header>
+    <a href="index.html">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 6L9 12L15 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </a>
+    <div class="container main-content">
+        <img src="symbolismus.jpeg" alt="Symbolismus Kunstwerk">
+        <div>
+            <h2>Kontext</h2>
+            <ul>
+                <li>Ort: Europa</li>
+                <li>Zeit: Ca. 1880-1900</li>
+                <li>Ziele: Darstellung von Ideen und Gefühlen durch Symbole und metaphorische Inhalte, Ablehnung der realistischen Darstellung.</li>
+                <li>Einfluss: Beeinflusste die nachfolgenden Bewegungen wie den Surrealismus.</li>
+            </ul>
+
+            <h2>Künstler</h2>
+            <h3>Gustave Moreau</h3>
+            <p>Schuf mythische und allegorische Werke mit reichen Details</p>
+
+            <h3>Odilon Redon</h3>
+            <p>Bekannter für seine traumhaften und mystischen Zeichnungen</p>
+
+            <h3>Arnold Böcklin</h3>
+            <p>Schuf symbolische Landschaften und allegorische Szenen</p>
+
+            <h2>Merkmale</h2>
+            <h3>Form</h3>
+            <ul>
+                <li>Detailreiche, symbolische Darstellungen</li>
+                <li>Mystische Inhalte</li>
+            </ul>
+
+            <h3>Philosophie</h3>
+            <p>Ausdruck innerer Welten, Symbolik und Allegorie</p>
+
+            <h2>Beispiele</h2>
+            <h3>Jupiter and Semele</h3>
+            <p>Gustave Moreau</p>
+
+            <h3>The Cyclops</h3>
+            <p>Odilon Redon</p>
+
+            <p>Der Symbolismus, aktiv in Europa von etwa 1880 bis 1900, strebte danach, Ideen und Gefühle durch symbolische Darstellungen und allegorische Inhalte auszudrücken. Künstler wie Gustave Moreau, Odilon Redon und Arnold Böcklin schufen Bilder mit reichen Details und mystischen Inhalten. Der Symbolismus lehnte die realistische Darstellung ab und betonte die Bedeutung innerer Welten und allegorischer Erzählungen. Werke wie Moreaus Jupiter and Semele und Redons The Cyclops sind exemplarisch für die symbolische Tiefe und mystische Atmosphäre dieser Bewegung.</p>
+
+            <h2>Weitere Informationen</h2>
+            <ul>
+                <li><a href="https://www.symbolismus.com">Symbolismus Archiv</a></li>
+            </ul>
+
+            <h2>Kontakt</h2>
+            <ul>
+                <li>Symbolismus Institut Europa</li>
+            </ul>
+
+            <a href="#top" class="back-to-top">Zurück nach oben</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Symbolismus Geschichte. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>

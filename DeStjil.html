@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De Stijl</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: auto;
+            overflow: hidden;
+            margin-left: 30px;
+        }
+        header {
+            background: #f0c674;
+            color: #fff;
+            padding: 5px 0;
+            border-bottom: #f0c674 2px solid;
+            text-align: center;
+            position: fixed;
+            z-index: 3;
+            width: 40%;
+        }
+        header h1 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .main-content {
+            display: flex;
+            padding: 5px;
+            background: #fff;
+            position: relative;
+        }
+        .main-content img {
+            position: fixed;
+            top: 50%;
+            left: 0px;
+            width: 40%;
+            height: 100vh;
+            object-fit: cover;
+            z-index: 2; /* Ensures the image stays behind the text */
+            transform: translateY(-50%);
+        }
+        .main-content div {
+            flex: 1;
+            margin-left: 40%;
+        }
+        .main-content h2 {
+            border-top: 2px solid white;
+            padding: 5px;
+            margin-bottom: 20px;
+            background-color: #f0c674;
+            color: white;
+        }
+        .main-content h3 {
+            margin-top: 0;
+            color: #f0c674;
+        }
+        .main-content p, .main-content ul {
+            margin-bottom: 20px;
+        }
+        .main-content ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        footer {
+            background: #f0c674;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #0779e4;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .back-to-top {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        svg {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>De Stijl (1917-1931)</h1>
+        </div>
+    </header>
+    <a href="index.html">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 6L9 12L15 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </a>
+    <div class="container main-content">
+        <img src="stijl.png" alt="De Stijl Kunstwerk">
+        <div>
+            <h2>Kontext</h2>
+            <ul>
+                <li>Ort: Niederlande</li>
+                <li>Zeit: 1917-1931</li>
+                <li>Ziele: Reduktion auf Grundformen und Primärfarben, Streben nach universeller Harmonie.</li>
+                <li>Einfluss: Einflussreich auf Design, Architektur und Grafik.</li>
+            </ul>
+
+            <h2>Künstler und Architekten</h2>
+            <h3>Piet Mondrian</h3>
+            <p>Begründer der neoplastischen Malerei, bekannt für seine Gitterbilder mit Primärfarben</p>
+
+            <h3>Theo van Doesburg</h3>
+            <p>Gründete die Zeitschrift „De Stijl“, förderte die Idee einer harmonischen Gestaltung</p>
+
+            <h3>Gerrit Rietveld</h3>
+            <p>Designer und Architekt, schuf das berühmte Rietveld-Schröder-Haus</p>
+
+            <h2>Merkmale</h2>
+            <h3>Form</h3>
+            <ul>
+                <li>Rechte Winkel</li>
+                <li>Gerade Linien</li>
+                <li>Primärfarben (Rot, Blau, Gelb), Schwarz, Weiß, Grau</li>
+            </ul>
+
+            <h3>Philosophie</h3>
+            <p>Reduktion, universelle Ordnung, Harmonie</p>
+
+            <h2>Beispiele</h2>
+            <h3>Composition with Red, Blue, and Yellow</h3>
+            <p>Piet Mondrian</p>
+
+            <h3>Rietveld-Schröder-Haus</h3>
+            <p>Gerrit Rietveld</p>
+
+            <p>De Stijl, eine niederländische Kunstbewegung von 1917 bis 1931, strebte nach universeller Harmonie durch die Reduktion auf Grundformen und Primärfarben wie Rot, Blau und Gelb. Piet Mondrian, Theo van Doesburg und Gerrit Rietveld waren Schlüsselfiguren dieser Bewegung. Mondrians ikonische Gitterbilder und Rietvelds Rietveld-Schröder-Haus verkörpern die philosophischen Ideale von De Stijl, die eine klare, harmonische Gestaltung und eine Verbindung von Kunst und Leben propagierten.</p>
+
+            <h2>Weitere Informationen</h2>
+            <ul>
+                <li><a href="https://www.destijl.com">De Stijl Archiv</a></li>
+            </ul>
+
+            <h2>Kontakt</h2>
+            <ul>
+                <li>De Stijl Institut Niederlande</li>
+            </ul>
+
+            <a href="#top" class="back-to-top">Zurück nach oben</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 De Stijl Geschichte. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>

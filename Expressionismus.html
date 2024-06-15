@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expressionismus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: auto;
+            overflow: hidden;
+            margin-left: 30px;
+        }
+        header {
+            background: #b294bb;
+            color: #fff;
+            padding: 5px 0;
+            border-bottom: #b294bb 2px solid;
+            text-align: center;
+            position: fixed;
+            z-index: 3;
+            width: 40%;
+        }
+        header h1 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .main-content {
+            display: flex;
+            padding: 5px;
+            background: #fff;
+            position: relative;
+        }
+        .main-content img {
+            position: fixed;
+            top: 50%;
+            left: 0px;
+            width: 40%;
+            height: 100vh;
+            object-fit: cover;
+            z-index: 2; /* Ensures the image stays behind the text */
+            transform: translateY(-50%);
+        }
+        .main-content div {
+            flex: 1;
+            margin-left: 40%;
+        }
+        .main-content h2 {
+            border-top: 2px solid white;
+            padding: 5px;
+            margin-bottom: 20px;
+            background-color: #b294bb;
+            color: white;
+        }
+        .main-content h3 {
+            margin-top: 0;
+            color: #b294bb;
+        }
+        .main-content p, .main-content ul {
+            margin-bottom: 20px;
+        }
+        .main-content ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        footer {
+            background: #b294bb;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #0779e4;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .back-to-top {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        svg {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Expressionismus (ca. 1905-1920)</h1>
+        </div>
+    </header>
+    <a href="index.html">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 6L9 12L15 18" stroke="white" stroke
+            width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </a>
+    <div class="container main-content">
+        <img
+        src="exp.jpeg" alt="Expressionismus Kunstwerk">
+        <div>
+            <h2>Kontext</h2>
+            <ul>
+                <li>Ort: Europa (besonders Deutschland und Österreich)</li>
+                <li>Zeit: Frühes 20. Jahrhundert (ca. 1905-1920)</li>
+                <li>Ziele: Ausdruck innerer Gefühle und Erfahrungen durch verzerrte Formen und intensive Farben.</li>
+                <li>Einfluss: Beeinflusste Film, Theater, Literatur und bildende Kunst.</li>
+            </ul>
+
+            <h2>Künstler</h2>
+            <h3>Edvard Munch</h3>
+            <p>Schuf eindrucksvolle Gemälde, die psychische Zustände ausdrücken</p>
+
+            <h3>Egon Schiele</h3>
+            <p>Bekannt für seine expressiven Aktzeichnungen und Porträts</p>
+
+            <h3>Oskar Kokoschka</h3>
+            <p>Malte intensive Porträts und Szenen, die innere Konflikte darstellen</p>
+
+            <h2>Merkmale</h2>
+            <h3>Form</h3>
+            <ul>
+                <li>Verfremdete Proportionen</li>
+                <li>Expressive Pinselstriche</li>
+                <li>Intensive Farbpalette</li>
+            </ul>
+
+            <h3>Philosophie</h3>
+            <p>Subjektivität, Ausdruck von Emotionen, gesellschaftliche Kritik</p>
+
+            <h2>Beispiele</h2>
+            <h3>The Scream</h3>
+            <p>Edvard Munch</p>
+
+            <h3>Portrait of Wally</h3>
+            <p>Egon Schiele</p>
+
+            <p>Der Expressionismus war eine bedeutende Kunstbewegung in Europa, besonders in Deutschland und Österreich, während des frühen 20. Jahrhunderts. Etwa von 1905 bis 1920 brachten Künstler wie Edvard Munch, Egon Schiele und Oskar Kokoschka ihre inneren Gefühle und Erfahrungen durch verzerrte Formen, intensive Farben und expressiven Pinselstrich zum Ausdruck. Der Expressionismus beeinflusste nicht nur die Malerei, sondern auch Film, Theater und Literatur. Werke wie Munchs The Scream, Schieles Portrait of Wally und Kokoschkas Porträts sind ikonische Beispiele für die subjektive Interpretation und gesellschaftliche Kritik dieser Bewegung.</p>
+
+            <h2>Weitere Informationen</h2>
+            <ul>
+                <li><a href="https://www.expressionismus.com">Expressionismus Archiv</a></li>
+            </ul>
+
+            <h2>Kontakt</h2>
+            <ul>
+                <li>Expressionismus Institut Berlin</li>
+            </ul>
+
+            <a href="#top" class="back-to-top">Zurück nach oben</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Expressionismus Geschichte. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>

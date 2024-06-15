@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Der Blaue Reiter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: auto;
+            overflow: hidden;
+            margin-left: 30px;
+        }
+        header {
+            background: #a3685a;
+            color: #fff;
+            padding: 5px 0;
+            border-bottom: #a3685a 2px solid;
+            text-align: center;
+            position: fixed;
+            z-index: 3;
+            width: 40%;
+        }
+        header h1 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .main-content {
+            display: flex;
+            padding: 5px;
+            background: #fff;
+            position: relative;
+        }
+        .main-content img {
+            position: fixed;
+            top: 50%;
+            left: 0px;
+            width: 40%;
+            height: 100vh;
+            object-fit: cover;
+            z-index: 2; /* Ensures the image stays behind the text */
+            transform: translateY(-50%);
+        }
+        .main-content div {
+            flex: 1;
+            margin-left: 40%;
+        }
+        .main-content h2 {
+            border-top: 2px solid white;
+            padding: 5px;
+            margin-bottom: 20px;
+            background-color: #a3685a;
+            color: white;
+        }
+        .main-content h3 {
+            margin-top: 0;
+            color: #a3685a;
+        }
+        .main-content p, .main-content ul {
+            margin-bottom: 20px;
+        }
+        .main-content ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        footer {
+            background: #a3685a;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #0779e4;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .back-to-top {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        svg {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Der Blaue Reiter (1911-1914)</h1>
+        </div>
+    </header>
+    <a href="index.html">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 6L9 12L15 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </a>
+    <div class="container main-content">
+        <img src="blau.jpeg" alt="Der Blaue Reiter Kunstwerk">
+        <div>
+            <h2>Kontext</h2>
+            <ul>
+                <li>Ort: München</li>
+                <li>Zeit: 1911-1914</li>
+                <li>Ziele: Ausdruck innerer Empfindungen, symbolische Farben und Formen.</li>
+                <li>Einfluss: Weitreichend auf den Expressionismus und die abstrakte Kunst.</li>
+            </ul>
+
+            <h2>Künstler</h2>
+            <h3>Wassily Kandinsky</h3>
+            <p>Betonte die spirituelle Kraft der Kunst, gilt als Pionier der abstrakten Malerei</p>
+
+            <h3>Franz Marc</h3>
+            <p>Bekannt für seine farbenfrohen, symbolischen Tierdarstellungen</p>
+
+            <h3>August Macke</h3>
+            <p>Schuf leuchtende Farbkompositionen, oft Szenen aus dem Alltag</p>
+
+            <h3>Gabriele Münter</h3>
+            <p>Malte expressive Landschaften und Porträts</p>
+
+            <h2>Merkmale</h2>
+            <h3>Form</h3>
+            <ul>
+                <li>Abstrakte und symbolische Darstellung</li>
+                <li>Lebhafte Farben</li>
+                <li>Expressive Formen</li>
+            </ul>
+
+            <h3>Philosophie</h3>
+            <p>Spiritueller Ausdruck, subjektive Erfahrung, Symbolik</p>
+
+            <h2>Beispiele</h2>
+            <h3>Composition VII</h3>
+            <p>Wassily Kandinsky</p>
+
+            <h3>The Large Blue Horses</h3>
+            <p>Franz Marc</p>
+
+            <p>Der Blaue Reiter war eine Künstlergruppe in München von 1911 bis 1914, die eine spirituelle und symbolische Ausdruckskraft durch abstrakte und farbenfrohe Kunstwerke suchte. Wassily Kandinsky, Franz Marc, August Macke und Gabriele Münter waren führende Köpfe dieser Bewegung. Ihre Werke wie Kandinskys Composition VII und Marcs The Large Blue Horses zeigen die Suche nach einer neuen künstlerischen Sprache, die innere Empfindungen und spirituelle Dimensionen ausdrücken sollte.</p>
+
+            <h2>Weitere Informationen</h2>
+            <ul>
+                <li><a href="https://www.derblaue-reiter.com">Der Blaue Reiter Archiv</a></li>
+            </ul>
+
+            <h2>Kontakt</h2>
+            <ul>
+                <li>Der Blaue Reiter Institut München</li>
+            </ul>
+
+            <a href="#top" class="back-to-top">Zurück nach oben</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Der Blaue Reiter Geschichte. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kubismus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: auto;
+            overflow: hidden;
+            margin-left: 30px;
+        }
+        header {
+            background: #de935f;
+            color: #fff;
+            padding: 5px 0;
+            border-bottom: #de935f 2px solid;
+            text-align: center;
+            position: fixed;
+            z-index: 3;
+            width: 40%;
+        }
+        header h1 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .main-content {
+            display: flex;
+            padding: 5px;
+            background: #fff;
+            position: relative;
+        }
+        .main-content img {
+            position: fixed;
+            top: 50%;
+            left: 0px;
+            width: 40%;
+            height: 100vh;
+            object-fit: cover;
+            z-index: 2; /* Ensures the image stays behind the text */
+            transform: translateY(-50%);
+        }
+        .main-content div {
+            flex: 1;
+            margin-left: 40%;
+        }
+        .main-content h2 {
+            border-top: 2px solid white;
+            padding: 5px;
+            margin-bottom: 20px;
+            background-color: #de935f;
+            color: white;
+        }
+        .main-content h3 {
+            margin-top: 0;
+            color: #de935f;
+        }
+        .main-content p, .main-content ul {
+            margin-bottom: 20px;
+        }
+        .main-content ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        footer {
+            background: #de935f;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #0779e4;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .back-to-top {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        svg {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kubismus (ca. 1907-1914)</h1>
+        </div>
+    </header>
+    <a href="index.html">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 6L9 12L15 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </a>
+    <div class="container main-content">
+        <img src="kub.jpeg" alt="Kubismus Kunstwerk">
+        <div>
+            <h2>Kontext</h2>
+            <ul>
+                <li>Ort: Frankreich</li>
+                <li>Zeit: Ca. 1907-1914</li>
+                <li>Ziele: Zerlegung von Formen in geometrische Bestandteile, Darstellung von Objekten aus mehreren Perspektiven gleichzeitig.</li>
+                <li>Einfluss: Beeinflusste zahlreiche Kunstbewegungen und die moderne Kunst insgesamt.</li>
+            </ul>
+
+            <h2>Künstler</h2>
+            <h3>Pablo Picasso</h3>
+            <p>Pionier des Kubismus, entwickelte zusammen mit Braque die kubistische Bildsprache</p>
+
+            <h3>Georges Braque</h3>
+            <p>Mitbegründer des Kubismus, experimentierte mit Formen und Perspektiven</p>
+
+            <h3>Juan Gris</h3>
+            <p>Weiterentwickler des Kubismus, bekannt für seine strukturierten und klaren Kompositionen</p>
+
+            <h2>Merkmale</h2>
+            <h3>Form</h3>
+            <ul>
+                <li>Zerlegung in geometrische Formen</li>
+                <li>Fragmentierte Darstellung</li>
+                <li>Simultane Perspektiven</li>
+            </ul>
+
+            <h3>Philosophie</h3>
+            <p>Auflösung der traditionellen Darstellung, Erforschung von Raum und Form</p>
+
+            <h2>Beispiele</h2>
+            <h3>Les Demoiselles d’Avignon</h3>
+            <p>Pablo Picasso</p>
+
+            <h3>Violin and Candlestick</h3>
+            <p>Georges Braque</p>
+
+            <p>Der Kubismus, in Frankreich von etwa 1907 bis 1914 entwickelt, zerlegte Formen in geometrische Bestandteile und zeigte Objekte aus verschiedenen Perspektiven gleichzeitig. Pablo Picasso, Georges Braque und Juan Gris waren führende Köpfe dieser Bewegung. Ihre Werke sind durch die Verwendung von geometrischen Formen, fragmentierte Darstellungen und simultane Perspektiven gekennzeichnet. Der Kubismus erforschte Raum und Form auf neue Weise und hatte einen tiefgreifenden Einfluss auf die moderne Kunst. Gemälde wie Picassos Les Demoiselles d’Avignon und Braques Violin and Candlestick sind wegweisend für diese revolutionäre Herangehensweise an die Darstellung von Realität.</p>
+
+            <h2>Weitere Informationen</h2>
+            <ul>
+                <li><a href="https://www.kubismus.com">Kubismus Archiv</a></li>
+            </ul>
+
+            <h2>Kontakt</h2>
+            <ul>
+                <li>Kubismus Institut Frankreich</li>
+            </ul>
+
+            <a href="#top" class="back-to-top">Zurück nach oben</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Kubismus Geschichte. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>

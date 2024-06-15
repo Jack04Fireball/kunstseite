@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postimpressionismus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: auto;
+            overflow: hidden;
+            margin-left: 30px;
+        }
+        header {
+            background: #b5bd68;
+            color: #fff;
+            padding: 5px 0;
+            border-bottom: #b5bd68 2px solid;
+            text-align: center;
+            position: fixed;
+            z-index: 3;
+            width: 40%;
+        }
+        header h1 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .main-content {
+            display: flex;
+            padding: 5px;
+            background: #fff;
+            position: relative;
+        }
+        .main-content img {
+            position: fixed;
+            top: 50%;
+            left: 0px;
+            width: 40%;
+            height: 100vh;
+            object-fit: cover;
+            z-index: 2; /* Ensures the image stays behind the text */
+            transform: translateY(-50%);
+        }
+        .main-content div {
+            flex: 1;
+            margin-left: 40%;
+        }
+        .main-content h2 {
+            border-top: 2px solid white;
+            padding: 5px;
+            margin-bottom: 20px;
+            background-color: #b5bd68;
+            color: white;
+        }
+        .main-content h3 {
+            margin-top: 0;
+            color: #b5bd68;
+        }
+        .main-content p, .main-content ul {
+            margin-bottom: 20px;
+        }
+        .main-content ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        footer {
+            background: #b5bd68;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #0779e4;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .back-to-top {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        svg {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Postimpressionismus (ca. 1880-1900)</h1>
+        </div>
+    </header>
+    <a href="index.html">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 6L9 12L15 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </a>
+    <div class="container main-content">
+        <img src="postimp.jpeg" alt="Postimpressionismus Kunstwerk">
+        <div>
+            <h2>Kontext</h2>
+            <ul>
+                <li>Ort: Frankreich</li>
+                <li>Zeit: Ca. 1880-1900</li>
+                <li>Ziele: Weiterentwicklung des Impressionismus, Betonung von Symbolik, Emotion, und Struktur.</li>
+                <li>Einfluss: Übergang von Impressionismus zu moderner Kunst.</li>
+            </ul>
+
+            <h2>Künstler</h2>
+            <h3>Georges Seurat</h3>
+            <p>Begründer des Pointillismus, schuf systematische und detaillierte Bilder</p>
+
+            <h3>Vincent van Gogh</h3>
+            <p>Ausdrucksstarke Malerei, bekannt für seinen intensiven Einsatz von Farbe und Pinselstrichen</p>
+
+            <h3>Paul Gauguin</h3>
+            <p>Schuf Werke mit symbolischen Inhalten, nutzte leuchtende Farben und einfache Formen</p>
+
+            <h3>Paul Cézanne</h3>
+            <p>Schuf Bilder mit strukturierter Komposition, Vorläufer des Kubismus</p>
+
+            <h2>Merkmale</h2>
+            <h3>Form</h3>
+            <ul>
+                <li>Punkttechnik (Pointillismus)</li>
+                <li>Expressive Pinselstriche</li>
+                <li>Symbolische Farbgebung</li>
+            </ul>
+
+            <h3>Philosophie</h3>
+            <p>Subjektive Interpretation, symbolischer Inhalt, emotionale Tiefe</p>
+
+            <h2>Beispiele</h2>
+            <h3>A Sunday Afternoon on the Island of La Grande Jatte</h3>
+            <p>Georges Seurat</p>
+
+            <h3>Starry Night</h3>
+            <p>Vincent van Gogh</p>
+
+            <p>Der Postimpressionismus, etwa von 1880 bis 1900 in Frankreich aktiv, entwickelte den Impressionismus weiter, indem er Symbolik, Emotion und Struktur betonte. Künstler wie Georges Seurat, Vincent van Gogh, Paul Gauguin und Paul Cézanne waren bedeutende Vertreter dieser Bewegung. Werke wie Seurats A Sunday Afternoon on the Island of La Grande Jatte, Van Goghs Starry Night und Gauguins einfache Formen mit leuchtenden Farben sind ikonische Beispiele für den subjektiven Ausdruck und die symbolische Darstellung im Postimpressionismus.</p>
+
+            <h2>Weitere Informationen</h2>
+            <ul>
+                <li><a href="https://www.postimpressionismus.com">Postimpressionismus Archiv</a></li>
+            </ul>
+
+            <h2>Kontakt</h2>
+            <ul>
+                <li>Postimpressionismus Institut Frankreich</li>
+            </ul>
+
+            <a href="#top" class="back-to-top">Zurück nach oben</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Postimpressionismus Geschichte. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugendstil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: auto;
+            overflow: hidden;
+            margin-left: 30px;
+        }
+        header {
+            background: #8abeb7;
+            color: #fff;
+            padding: 5px 0;
+            border-bottom: #8abeb7 2px solid;
+            text-align: center;
+            position: fixed;
+            z-index: 3;
+            width: 40%;
+        }
+        header h1 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .main-content {
+            display: flex;
+            padding: 5px;
+            background: #fff;
+            position: relative;
+        }
+        .main-content img {
+            position: fixed;
+            top: 50%;
+            left: 0px;
+            width: 40%;
+            height: 100vh;
+            object-fit: cover;
+            z-index: 2; /* Ensures the image stays behind the text */
+            transform: translateY(-50%);
+        }
+        .main-content div {
+            flex: 1;
+            margin-left: 40%;
+        }
+        .main-content h2 {
+            border-top: 2px solid white;
+            padding: 5px;
+            margin-bottom: 20px;
+            background-color: #8abeb7;
+            color: white;
+        }
+        .main-content h3 {
+            margin-top: 0;
+            color: #8abeb7;
+        }
+        .main-content p, .main-content ul {
+            margin-bottom: 20px;
+        }
+        .main-content ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        footer {
+            background: #8abeb7;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #0779e4;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .back-to-top {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        svg {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Jugendstil (ca. 1890-1910)</h1>
+        </div>
+    </header>
+    <a href="index.html">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 6L9 12L15 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </a>
+    <div class="container main-content">
+        <img src="jugend.jpeg" alt="Jugendstil Kunstwerk">
+        <div>
+            <h2>Kontext</h2>
+            <ul>
+                <li>Ort: Europa (besonders Deutschland, Österreich, Frankreich)</li>
+                <li>Zeit: Ca. 1890-1910</li>
+                <li>Ziele: Vereinigung von Kunst und Leben, Ablehnung historistischer Stile, Betonung organischer Formen und dekorativer Elemente.</li>
+                <li>Einfluss: Weitreichend auf Architektur, Design, Kunsthandwerk.</li>
+            </ul>
+
+            <h2>Künstler und Architekten</h2>
+            <h3>Gustav Klimt</h3>
+            <p>Bekannter Maler des Wiener Jugendstils, schuf ornamentale und symbolische Gemälde</p>
+
+            <h3>Antoni Gaudí</h3>
+            <p>Architekt, bekannt für seine organischen, skulpturalen Gebäude in Barcelona</p>
+
+            <h3>Victor Horta</h3>
+            <p>Pionier des belgischen Jugendstils, gestaltete zahlreiche Gebäude und Interieurs</p>
+
+            <h2>Merkmale</h2>
+            <h3>Form</h3>
+            <ul>
+                <li>Organische, geschwungene Linien</li>
+                <li>Florale Motive</li>
+                <li>Reichhaltige Dekoration</li>
+            </ul>
+
+            <h3>Materialien</h3>
+            <ul>
+                <li>Glas</li>
+                <li>Metall</li>
+                <li>Keramik</li>
+            </ul>
+
+            <h3>Philosophie</h3>
+            <p>Integration von Kunst und Design, Schönheit im Alltag</p>
+
+            <h2>Beispiele</h2>
+            <h3>The Kiss</h3>
+            <p>Gustav Klimt</p>
+
+            <h3>Casa Batlló</h3>
+            <p>Antoni Gaudí</p>
+
+            <p>Der Jugendstil, etwa von 1890 bis 1910 in Europa verbreitet, strebte nach einer Vereinigung von Kunst und Leben durch organische Formen, reichhaltige Dekorationen und die Integration von Kunsthandwerk in Architektur und Design. Künstler wie Gustav Klimt in Wien, Antoni Gaudí in Barcelona und Victor Horta in Belgien prägten diese Bewegung. Ihre Werke, wie Klimts The Kiss und Gaudís Casa Batlló, sind bekannt für ihre floralen Motive, geschwungenen Linien und die Verwendung von Materialien wie Glas und Keramik. Der Jugendstil betonte die Schönheit im Alltag und hatte einen großen Einfluss auf die moderne Architektur und das Design.</p>
+
+            <h2>Weitere Informationen</h2>
+            <ul>
+                <li><a href="https://www.jugendstil.com">Jugendstil Archiv</a></li>
+            </ul>
+
+            <h2>Kontakt</h2>
+            <ul>
+                <li>Jugendstil Institut Wien</li>
+            </ul>
+
+            <a href="#top" class="back-to-top">Zurück nach oben</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Jugendstil Geschichte. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>

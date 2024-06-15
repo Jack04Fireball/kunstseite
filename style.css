@@ -1,0 +1,362 @@
+/* Bestehende Stile... */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "bufalino", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+header {
+    background-color: #333;
+    height: 100px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+main {
+    width: 100vmax;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    height: 10%;
+    text-align: center;
+    height: 150px;
+    margin-top: 0;
+}
+
+footer p {
+    color: white;
+    margin-top: 0;
+}
+
+/*-----index------*/
+
+ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 40pt;
+    font-weight: bold;
+    color: #333;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    height: 60px;
+    border-bottom: solid 1.5px #333;
+    padding-top: 35px;
+    transition: all 1s ease-in-out;
+    position: relative;
+}
+
+li:hover.symbolismus {
+    background-color: #f0c674;
+}
+
+li:hover.postimpressionismus {
+    background-color: #b5bd68;
+}
+
+li:hover.jugendstil {
+    background-color: #8abeb7;
+}
+
+li:hover.kubismus {
+    background-color: #de935f;
+}
+
+li:hover.futurismus {
+    background-color: #cc6666;
+}
+
+li:hover.fauvismus {
+    background-color: #81a2be;
+}
+
+li:hover.expressionismus {
+    background-color: #b294bb;
+}
+
+li:hover.die-bruecke {
+    background-color: #c5c8c6;
+}
+
+li:hover.der-blaue-reiter {
+    background-color: #a3685a;
+}
+
+li:hover.de-stijl {
+    background-color: #f0c674;
+}
+
+li:hover.dada {
+    background-color: #b5bd68;
+}
+
+li:hover.superatismus {
+    background-color: #8abeb7;
+}
+
+li:hover.bauhaus {
+    background-color: #de935f;
+}
+
+li:hover.deutscher-werkbund {
+    background-color: #cc6666;
+}
+
+li:hover.surrealismus {
+    background-color: #81a2be;
+}
+
+li:hover.readymade {
+    background-color: #b294bb;
+}
+
+li:last-child {
+    margin-bottom: 0px;
+    height: 60px;
+    border-bottom: solid 0px #333;
+    padding-top: 35px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 60px;
+}
+
+svg {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+/*-----Unterordner------*/
+
+.pschrift {
+    font-family: 'Klassische Moderne', sans-serif;
+    font-size: 16pt;
+    font-weight: normal;
+    color: #333;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    height: 50vh;
+}
+
+/* timeline */
+
+.timeline-container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0;
+    margin-bottom: 50px;
+    width: 100vw;
+    z-index: 20;
+    background-color: rgba(255, 255, 255, 0.964);
+    height: 100px;
+    translate: 0 -60px;
+}
+
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    max-width: 800vw;
+    border-bottom: 2px solid #333;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    translate: 0 -50px;
+}
+
+.timeline .year {
+    position: relative;
+    text-align: center;
+    transform: translateY(40px);
+    transform-origin: left top 0;
+}
+
+.timeline .year:before {
+    content: "";
+    position: absolute;
+    top: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 100vh;
+    background: #3131313a;
+    z-index: -2;
+}
+
+.timeline .year:nth-child(odd) {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .timeline {
+        max-width: 100%;
+    }
+
+    .timeline .year {
+        font-size: 12px;
+    }
+}
+
+/* List item background colors */
+/* List item background colors */
+.symbolismus {
+    background: linear-gradient(to right, transparent calc((1880 - 1880) / 60 * 100%), #f0c674 calc((1880 - 1880) / 60 * 100%), #f0c674 calc((1910 - 1880) / 60 * 100%), transparent calc((1910 - 1880) / 60 * 100%));
+}
+
+.postimpressionismus {
+    background: linear-gradient(to right, transparent calc((1886 - 1880) / 60 * 100%), #b5bd68 calc((1886 - 1880) / 60 * 100%), #b5bd68 calc((1905 - 1880) / 60 * 100%), transparent calc((1905 - 1880) / 60 * 100%));
+}
+
+.jugendstil {
+    background: linear-gradient(to right, transparent calc((1890 - 1880) / 60 * 100%), #8abeb7 calc((1890 - 1880) / 60 * 100%), #8abeb7 calc((1910 - 1880) / 60 * 100%), transparent calc((1910 - 1880) / 60 * 100%));
+}
+
+.kubismus {
+    background: linear-gradient(to right, transparent calc((1907 - 1880) / 60 * 100%), #de935f calc((1907 - 1880) / 60 * 100%), #de935f calc((1914 - 1880) / 60 * 100%), transparent calc((1914 - 1880) / 60 * 100%));
+}
+
+.futurismus {
+    background: linear-gradient(to right, transparent calc((1909 - 1880) / 60 * 100%), #cc6666 calc((1909 - 1880) / 60 * 100%), #cc6666 calc((1920 - 1880) / 60 * 100%), transparent calc((1920 - 1880) / 60 * 100%));
+}
+
+.fauvismus {
+    background: linear-gradient(to right, transparent calc((1905 - 1880) / 60 * 100%), #81a2be calc((1905 - 1880) / 60 * 100%), #81a2be calc((1908 - 1880) / 60 * 100%), transparent calc((1908 - 1880) / 60 * 100%));
+}
+
+.expressionismus {
+    background: linear-gradient(to right, transparent calc((1905 - 1880) / 60 * 100%), #b294bb calc((1905 - 1880) / 60 * 100%), #b294bb calc((1920 - 1880) / 60 * 100%), transparent calc((1920 - 1880) / 60 * 100%));
+}
+
+.die-bruecke {
+    background: linear-gradient(to right, transparent calc((1905 - 1880) / 60 * 100%), #c5c8c6 calc((1905 - 1880) / 60 * 100%), #c5c8c6 calc((1913 - 1880) / 60 * 100%), transparent calc((1913 - 1880) / 60 * 100%));
+}
+
+.der-blaue-reiter {
+    background: linear-gradient(to right, transparent calc((1911 - 1880) / 60 * 100%), #a3685a calc((1911 - 1880) / 60 * 100%), #a3685a calc((1914 - 1880) / 60 * 100%), transparent calc((1914 - 1880) / 60 * 100%));
+}
+
+.de-stijl {
+    background: linear-gradient(to right, transparent calc((1917 - 1880) / 60 * 100%), #f0c674 calc((1917 - 1880) / 60 * 100%), #f0c674 calc((1931 - 1880) / 60 * 100%), transparent calc((1931 - 1880) / 60 * 100%));
+}
+
+.dada {
+    background: linear-gradient(to right, transparent calc((1916 - 1880) / 60 * 100%), #b5bd68 calc((1916 - 1880) / 60 * 100%), #b5bd68 calc((1924 - 1880) / 60 * 100%), transparent calc((1924 - 1880) / 60 * 100%));
+}
+
+.superatismus {
+    background: linear-gradient(to right, transparent calc((1915 - 1880) / 60 * 100%), #8abeb7 calc((1915 - 1880) / 60 * 100%), #8abeb7 calc((1930 - 1880) / 60 * 100%), transparent calc((1930 - 1880) / 60 * 100%));
+}
+
+.bauhaus {
+    background: linear-gradient(to right, transparent calc((1919 - 1880) / 60 * 100%), #de935f calc((1919 - 1880) / 60 * 100%), #de935f calc((1933 - 1880) / 60 * 100%), transparent calc((1933 - 1880) / 60 * 100%));
+}
+
+.deutscher-werkbund {
+    background: linear-gradient(to right, transparent calc((1907 - 1880) / 60 * 100%), #cc6666 calc((1907 - 1880) / 60 * 100%), #cc6666 calc((1934 - 1880) / 60 * 100%), transparent calc((1934 - 1880) / 60 * 100%));
+}
+
+.surrealismus {
+    background: linear-gradient(to right, transparent calc((1924 - 1880) / 60 * 100%), #81a2be calc((1924 - 1880) / 60 * 100%), #81a2be calc((1940 - 1880) / 60 * 100%), transparent calc((1940 - 1880) / 60 * 100%));
+}
+
+.readymade {
+    background: linear-gradient(to right, transparent calc((1913 - 1880) / 60 * 100%), #b294bb calc((1913 - 1880) / 60 * 100%), #b294bb calc((1913 - 1880) / 60 * 100%), transparent calc((1913 - 1880) / 60 * 100%));
+}
+
+/* Neue Stile für Kunstbewegungsseiten */
+
+.slider {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.angled-background {
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 120%;
+    height: 100%;
+    background: #333;
+    transform: skew(-20deg);
+    z-index: -1;
+}
+
+.slide img {
+    width: 80%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.slide .text {
+    text-align: left;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.slide .text h2 {
+    margin-top: 0;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav-dot.active {
+    background-color: white;
+}

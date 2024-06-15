@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Die Brücke</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: auto;
+            overflow: hidden;
+            margin-left: 30px;
+        }
+        header {
+            background: #c5c8c6;
+            color: #fff;
+            padding: 5px 0;
+            border-bottom: #c5c8c6 2px solid;
+            text-align: center;
+            position: fixed;
+            z-index: 3;
+            width: 40%;
+        }
+        header h1 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .main-content {
+            display: flex;
+            padding: 5px;
+            background: #fff;
+            position: relative;
+        }
+        .main-content img {
+            position: fixed;
+            top: 50%;
+            left: 0px;
+            width: 40%;
+            height: 100vh;
+            object-fit: cover;
+            z-index: 2; /* Ensures the image stays behind the text */
+            transform: translateY(-50%);
+        }
+        .main-content div {
+            flex: 1;
+            margin-left: 40%;
+        }
+        .main-content h2 {
+            border-top: 2px solid white;
+            padding: 5px;
+            margin-bottom: 20px;
+            background-color: #c5c8c6;
+            color: white;
+        }
+        .main-content h3 {
+            margin-top: 0;
+            color: #c5c8c6;
+        }
+        .main-content p, .main-content ul {
+            margin-bottom: 20px;
+        }
+        .main-content ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        footer {
+            background: #c5c8c6;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #0779e4;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .back-to-top {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        svg {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Die Brücke (1905-1913)</h1>
+        </div>
+    </header>
+    <a href="index.html">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 6L9 12L15 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </a>
+    <div class="container main-content">
+        <img src="brücke.jpeg" alt="Die Brücke Kunstwerk">
+        <div>
+            <h2>Kontext</h2>
+            <ul>
+                <li>Ort: Dresden, später Berlin</li>
+                <li>Zeit: 1905-1913</li>
+                <li>Ziele: Erneuerung der Kunst durch expressive Mittel, Ablehnung des Akademismus.</li>
+                <li>Einfluss: Frühphase des Expressionismus in Deutschland.</li>
+            </ul>
+
+            <h2>Künstler</h2>
+            <h3>Ernst Ludwig Kirchner</h3>
+            <p>Gründungsmitglied, bekannt für seine farbintensiven und dynamischen Szenen</p>
+
+            <h3>Erich Heckel</h3>
+            <p>Schuf Werke mit groben, kantigen Formen und expressiven Farben</p>
+
+            <h3>Karl Schmidt-Rottluff</h3>
+            <p>Verwendete kräftige Farben und reduzierte Formen</p>
+
+            <h2>Merkmale</h2>
+            <h3>Form</h3>
+            <ul>
+                <li>Kräftige Farben</li>
+                <li>Dynamische Pinselstriche</li>
+                <li>Vereinfachte Formen</li>
+            </ul>
+
+            <h3>Philosophie</h3>
+            <p>Emotionale Ausdruckskraft, Antikonformismus, künstlerische Freiheit</p>
+
+            <h2>Beispiele</h2>
+            <h3>Street, Berlin</h3>
+            <p>Ernst Ludwig Kirchner</p>
+
+            <h3>Girl with Cat</h3>
+            <p>Karl Schmidt-Rottluff</p>
+
+            <p>Die Brücke war eine expressionistische Künstlergruppe in Dresden und später Berlin von 1905 bis 1913. Ernst Ludwig Kirchner, Erich Heckel und Karl Schmidt-Rottluff gehörten zu den Gründungsmitgliedern. Sie strebten nach einem Ausdruck innerer Empfindungen durch kräftige Farben, dynamische Pinselstriche und vereinfachte Formen. Werke wie Kirchners Street, Berlin und Schmidt-Rottluffs Girl with Cat sind typische Beispiele für den emotionalen Ausdruck und die künstlerische Freiheit der Brücke-Künstler.</p>
+
+            <h2>Weitere Informationen</h2>
+            <ul>
+                <li><a href="https://www.die-bruecke.com">Die Brücke Archiv</a></li>
+            </ul>
+
+            <h2>Kontakt</h2>
+            <ul>
+                <li>Die Brücke Institut Dresden</li>
+            </ul>
+
+            <a href="#top" class="back-to-top">Zurück nach oben</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Die Brücke Geschichte. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>

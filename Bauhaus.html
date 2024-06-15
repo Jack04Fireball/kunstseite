@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bauhaus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: auto;
+            overflow: hidden;
+            margin-left: 30px;
+        }
+        header {
+            background: #de935f;
+            color: #fff;
+            padding: 5px 0;
+            border-bottom: #de935f 2px solid;
+            text-align: center;
+            position: fixed;
+            z-index: 3;
+            width: 40%;
+        }
+        header h1 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .main-content {
+            display: flex;
+            padding: 5px;
+            background: #fff;
+            position: relative;
+        }
+        .main-content img {
+            position: fixed;
+            top: 50%;
+            left: 0px;
+            width: 40%;
+            height: 100vh;
+            object-fit: cover;
+            z-index: 2; /* Ensures the image stays behind the text */
+            transform: translateY(-50%);
+        }
+        .main-content div {
+            flex: 1;
+            margin-left: 40%;
+        }
+        .main-content h2 {
+            border-top: 2px solid white;
+            padding: 5px;
+            margin-bottom: 20px;
+            background-color: #de935f;
+            color: white;
+        }
+        .main-content h3 {
+            margin-top: 0;
+            color: #de935f;
+        }
+        .main-content p, .main-content ul {
+            margin-bottom: 20px;
+        }
+        .main-content ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        footer {
+            background: #de935f;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #0779e4;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .back-to-top {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        svg {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bauhaus (1919-1933)</h1>
+        </div>
+    </header>
+    <a href="index.html">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 6L9 12L15 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </a>
+    <div class="container main-content">
+        <img src="4_Bauhaus_Dessau_Nate_Robert_via_Flickr_CC_BY_2.0.jpg" alt="Bauhaus Gebäude">
+        <div>
+            <h2>Kontext</h2>
+            <ul>
+                <li>Ort: Weimar, Dessau, Berlin</li>
+                <li>Zeit: 1919-1933</li>
+                <li>Ziele: Integration von Kunst, Handwerk und Technik; Schaffung einer neuen Architektur und Design-Philosophie.</li>
+                <li>Einfluss: Umfassend auf Architektur, Design, Kunst und Kunsthandwerk.</li>
+            </ul>
+
+            <h2>Künstler und Architekten</h2>
+            <h3>Walter Gropius</h3>
+            <p>Gründer des Bauhauses, Betonung auf Funktionalität und Ästhetik</p>
+
+            <h3>Ludwig Mies van der Rohe</h3>
+            <p>Entwickelte das Konzept des offenen Grundrisses und die Verwendung moderner Materialien</p>
+
+            <h3>Paul Klee</h3>
+            <p>Einflussreicher Lehrer, bekannt für farbenfrohe abstrakte Werke</p>
+
+            <h3>Wassily Kandinsky</h3>
+            <p>Verknüpfte Musik und Malerei, prägte die abstrakte Kunst am Bauhaus</p>
+
+            <h2>Merkmale</h2>
+            <h3>Form</h3>
+            <ul>
+                <li>Geometrisch</li>
+                <li>Minimalistisch</li>
+                <li>Funktional</li>
+            </ul>
+
+            <h3>Materialien</h3>
+            <ul>
+                <li>Beton</li>
+                <li>Stahl</li>
+                <li>Glas</li>
+            </ul>
+
+            <h3>Philosophie</h3>
+            <p>Form folgt Funktion, Einheit von Kunst und Technik</p>
+
+            <h2>Beispiele</h2>
+            <h3>Bauhaus-Gebäude in Dessau</h3>
+            <p>Entworfen von Walter Gropius</p>
+
+            <h3>Barcelona-Pavillon</h3>
+            <p>Entworfen von Ludwig Mies van der Rohe</p>
+
+            <p>Das Bauhaus, gegründet von Walter Gropius im Jahr 1919, revolutionierte die Kunst-, Design- und Architekturwelt des frühen 20. Jahrhunderts. Mit Standorten in Weimar, Dessau und Berlin verfolgte es das Ziel, Kunst, Handwerk und Technik zu integrieren und eine neue Design-Philosophie zu schaffen. Betont wurden Funktionalität und Ästhetik, wobei Form der Funktion folgen sollte. Künstler wie Wassily Kandinsky und Paul Klee prägten das Bauhaus mit ihrer abstrakten Kunst und der Verknüpfung von Musik und Malerei. Bauhaus-Gebäude wie das Dessauer Bauhaus (von Gropius entworfen) und der Barcelona-Pavillon (von Ludwig Mies van der Rohe) stehen als Meisterwerke moderner Architektur und Design-Philosophie.</p>
+
+            <h2>Weitere Informationen</h2>
+            <ul>
+                <li><a href="https://www.bauhaus.de">Bauhaus Archiv</a></li>
+                <li><a href="https://www.bauhaus-dessau.de">Bauhaus Dessau</a></li>
+            </ul>
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Paul_Klee%2C_1914%2C_Villa_R.jpg/800px-Paul_Klee%2C_1914%2C_Villa_R.jpg" alt="Paul Klee Werk">
+
+            <h2>Kontakt</h2>
+            <ul>
+                <li>Bauhaus-Universität Weimar</li>
+                <li>Bauhaus Dessau Stiftung</li>
+            </ul>
+
+            <a href="#top" class="back-to-top">Zurück nach oben</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Bauhaus Geschichte. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>

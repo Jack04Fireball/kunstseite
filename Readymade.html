@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readymade</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: auto;
+            overflow: hidden;
+            margin-left: 30px;
+        }
+        header {
+            background: #b294bb;
+            color: #fff;
+            padding: 5px 0;
+            border-bottom: #b294bb 2px solid;
+            text-align: center;
+            position: fixed;
+            z-index: 3;
+            width: 40%;
+        }
+        header h1 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .main-content {
+            display: flex;
+            padding: 5px;
+            background: #fff;
+            position: relative;
+        }
+        .main-content img {
+            position: fixed;
+            top: 50%;
+            left: 0px;
+            width: 40%;
+            height: 100vh;
+            object-fit: cover;
+            z-index: 2; /* Ensures the image stays behind the text */
+            transform: translateY(-50%);
+        }
+        .main-content div {
+            flex: 1;
+            margin-left: 40%;
+        }
+        .main-content h2 {
+            border-top: 2px solid white;
+            padding: 5px;
+            margin-bottom: 20px;
+            background-color: #b294bb;
+            color: white;
+        }
+        .main-content h3 {
+            margin-top: 0;
+            color: #b294bb;
+        }
+        .main-content p, .main-content ul {
+            margin-bottom: 20px;
+        }
+        .main-content ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        footer {
+            background: #b294bb;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #0779e4;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .back-to-top {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        svg {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Readymade (seit ca. 1913)</h1>
+        </div>
+    </header>
+    <a href="index.html">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 6L9 12L15 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </a>
+    <div class="container main-content">
+        <img src="read.jpeg" alt="Readymade Kunstwerk">
+        <div>
+            <h2>Kontext</h2>
+            <ul>
+                <li>Ort: Frankreich, USA</li>
+                <li>Zeit: Seit ca. 1913</li>
+                <li>Ziele: Hinterfragen des Kunstbegriffs, Erheben von Alltagsobjekten zur Kunst.</li>
+                <li>Einfluss: Radikale Erneuerung des Kunstverständnisses, Einfluss auf Konzeptkunst und Dada.</li>
+            </ul>
+
+            <h2>Künstler</h2>
+            <h3>Marcel Duchamp</h3>
+            <p>Pionier des Readymade, erklärte alltägliche Gegenstände zur Kunst durch Auswahl und Umbenennung</p>
+
+            <h2>Merkmale</h2>
+            <h3>Form</h3>
+            <ul>
+                <li>Alltagsgegenstände</li>
+                <li>Präsentation ohne Veränderung</li>
+                <li>Kontextualisierung</li>
+            </ul>
+
+            <h3>Philosophie</h3>
+            <p>Kunst ist das, was der Künstler als Kunst definiert, Umdeutung von Objekten</p>
+
+            <h2>Beispiele</h2>
+            <h3>Fountain</h3>
+            <p>Marcel Duchamp</p>
+
+            <h3>Bicycle Wheel</h3>
+            <p>Marcel Duchamp</p>
+
+            <p>Das Readymade-Konzept, von Marcel Duchamp seit etwa 1913 entwickelt, stellte Alltagsgegenstände als Kunst dar, indem sie aus ihrem Kontext genommen und in einer neuen künstlerischen Bedeutung präsentiert wurden. Duchamp hinterfragte den traditionellen Kunstbegriff und provozierte durch Werke wie Fountain und Bicycle Wheel, die konventionelle Vorstellungen von Kunst und Ästhetik herausforderten. Das Readymade hatte einen tiefgreifenden Einfluss auf die Konzeptkunst und die Erweiterung des Kunstverständnisses im 20. Jahrhundert.</p>
+
+            <h2>Weitere Informationen</h2>
+            <ul>
+                <li><a href="https://www.readymade.com">Readymade Archiv</a></li>
+            </ul>
+
+            <h2>Kontakt</h2>
+            <ul>
+                <li>Readymade Institut Frankreich</li>
+            </ul>
+
+            <a href="#top" class="back-to-top">Zurück nach oben</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Readymade Geschichte. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
