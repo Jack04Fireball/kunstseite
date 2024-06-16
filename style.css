@@ -6,6 +6,7 @@ body {
     font-family: "bufalino", sans-serif;
     font-weight: 400;
     font-style: normal; 
+    overflow-x: hidden;
 }
 
 header {
@@ -45,6 +46,7 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    width: 100vw;
 }
 
 li {
@@ -56,6 +58,7 @@ li {
     padding-top: 35px;
     transition: all 1s ease-in-out;
     position: relative;
+    width: 100vw;
 }
 
 li:hover.symbolismus {
@@ -130,15 +133,12 @@ li:last-child {
 }
 
 ul a {
+    display: block;
     text-decoration: none;
-    color: #333;
+    color: inherit;
     margin-left: 60px;
-}
-
-svg {
-    position: absolute;
-    top: 30%;
-    left: 5%;
+    height: 100%;
+    width: 100%;
 }
 
 /*-----Unterordner------*/
@@ -243,6 +243,15 @@ svg {
 
     .pschrift {
         font-size: 14pt;
+    }
+
+    .slider .slide img {
+        width: 100%;
+        max-height: 200px;
+    }
+
+    .slide .text {
+        font-size: 12pt;
     }
 }
 
@@ -438,3 +447,15 @@ svg {
         font-size: 12pt;
     }
 }
+
+
+/* Bestehende Stile... */
+
+ul a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 0;
+}
+
+/* Restliche Stile... */
