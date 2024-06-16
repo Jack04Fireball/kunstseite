@@ -20,7 +20,7 @@
         header {
             background: #b5bd68;
             color: #fff;
-            padding: 5px 0;
+            padding: 10px 0;
             border-bottom: #b5bd68 2px solid;
             text-align: center;
             position: fixed;
@@ -29,7 +29,7 @@
         }
         header h1 {
             margin: 0;
-            padding-bottom: 10px;
+            padding-bottom: 0px;
         }
         .main-content {
             display: flex;
@@ -95,6 +95,15 @@
             left: 10px;
             z-index: 4;
         }
+
+        a {
+            color: inherit; /* Link-Farbe wie normaler Text */
+            text-decoration: none; /* Keine Unterstreichung */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Unterstreichung beim Hover */
+        }
     </style>
 </head>
 <body>
@@ -120,16 +129,16 @@
             </ul>
 
             <h2>Künstler</h2>
-            <h3>Hans Arp</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Hans_Arp" target="_blank">Hans Arp</a></h3>
             <p>Schuf biomorphe Formen und Zufallskompositionen</p>
 
-            <h3>Marcel Duchamp</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Marcel_Duchamp" target="_blank">Marcel Duchamp</a></h3>
             <p>Entwickelte das Konzept des „Readymades“, das gewöhnliche Objekte zur Kunst erklärte</p>
 
-            <h3>Hannah Höch</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Hannah_H%C3%B6ch" target="_blank">Hannah Höch</a></h3>
             <p>Pionierin der Fotomontage, kritisierte gesellschaftliche Normen</p>
 
-            <h3>Raoul Hausmann</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Raoul_Hausmann" target="_blank">Raoul Hausmann</a></h3>
             <p>Bekannter Dadaist, der Fotomontagen und Lautgedichte schuf</p>
 
             <h2>Merkmale</h2>
@@ -151,13 +160,13 @@
             <p>Anti-Ästhetik, Provokation, Spontaneität</p>
 
             <h2>Beispiele</h2>
-            <h3>Fountain</h3>
-            <p>Marcel Duchamp</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Fountain_(Kunstwerk)" target="_blank">Fountain</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Marcel_Duchamp" target="_blank">Marcel Duchamp</a></p>
 
-            <h3>Collagen von Hannah Höch</h3>
+            <h3>Collagen von <a href="https://de.wikipedia.org/wiki/Hannah_H%C3%B6ch" target="_blank">Hannah Höch</a></h3>
             <p>Beispiele für Fotomontagen und gesellschaftliche Kritik</p>
 
-            <p>Die Dada-Bewegung, die von 1916 bis etwa 1923 in Zürich, Berlin und New York aktiv war, war eine avantgardistische Antwort auf die gesellschaftlichen und künstlerischen Konventionen ihrer Zeit. Ihr Ziel war die Zerstörung traditioneller Kunstbegriffe und bürgerlicher Werte durch den Einsatz von Antikunst, Zufall und Humor. Künstler wie Marcel Duchamp, bekannt für seine „Readymades“ wie die Fountain, und Hannah Höch, eine Pionierin der Fotomontage, prägten Dada. Diese Bewegung hatte einen starken Einfluss auf die Entwicklung der Konzeptkunst und Performance-Art.</p>
+            <p>Die Dada-Bewegung, die von 1916 bis etwa 1923 in Zürich, Berlin und New York aktiv war, war eine avantgardistische Antwort auf die gesellschaftlichen und künstlerischen Konventionen ihrer Zeit. Ihr Ziel war die Zerstörung traditioneller Kunstbegriffe und bürgerlicher Werte durch den Einsatz von Antikunst, Zufall und Humor. Künstler wie <a href="https://de.wikipedia.org/wiki/Marcel_Duchamp" target="_blank">Marcel Duchamp</a>, bekannt für seine „Readymades“ wie die <a href="https://de.wikipedia.org/wiki/Fountain_(Kunstwerk)" target="_blank">Fountain</a>, und <a href="https://de.wikipedia.org/wiki/Hannah_H%C3%B6ch" target="_blank">Hannah Höch</a>, eine Pionierin der Fotomontage, prägten Dada. Diese Bewegung hatte einen starken Einfluss auf die Entwicklung der Konzeptkunst und Performance-Art.</p>
 
             <h2>Weitere Informationen</h2>
             <ul>
@@ -173,8 +182,6 @@
             <a href="#top" class="back-to-top">Zurück nach oben</a>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 DADA Geschichte. Alle Rechte vorbehalten.</p>
-    </footer>
+
 </body>
 </html>

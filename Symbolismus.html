@@ -12,6 +12,16 @@
             padding: 0;
             background-color: #f4f4f4;
         }
+
+        a {
+            color: inherit; /* Link-Farbe wie normaler Text */
+            text-decoration: none; /* Keine Unterstreichung */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Unterstreichung beim Hover */
+        }
+
         .container {
             width: auto;
             overflow: hidden;
@@ -20,7 +30,7 @@
         header {
             background: #f0c674;
             color: #fff;
-            padding: 5px 0;
+            padding: 10px 0;
             border-bottom: #f0c674 2px solid;
             text-align: center;
             position: fixed;
@@ -29,7 +39,7 @@
         }
         header h1 {
             margin: 0;
-            padding-bottom: 10px;
+            padding-bottom: 0px;
         }
         .main-content {
             display: flex;
@@ -75,6 +85,7 @@
             text-align: center;
             padding: 10px 0;
             margin-top: 20px;
+            width: 60%;
         }
         footer a {
             color: #0779e4;
@@ -120,13 +131,13 @@
             </ul>
 
             <h2>Künstler</h2>
-            <h3>Gustave Moreau</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Gustave_Moreau" target="_blank">Gustave Moreau</a></h3>
             <p>Schuf mythische und allegorische Werke mit reichen Details</p>
 
-            <h3>Odilon Redon</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Odilon_Redon" target="_blank">Odilon Redon</a></h3>
             <p>Bekannter für seine traumhaften und mystischen Zeichnungen</p>
 
-            <h3>Arnold Böcklin</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Arnold_B%C3%B6cklin" target="_blank">Arnold Böcklin</a></h3>
             <p>Schuf symbolische Landschaften und allegorische Szenen</p>
 
             <h2>Merkmale</h2>
@@ -140,13 +151,13 @@
             <p>Ausdruck innerer Welten, Symbolik und Allegorie</p>
 
             <h2>Beispiele</h2>
-            <h3>Jupiter and Semele</h3>
-            <p>Gustave Moreau</p>
+            <h3><a href="https://artsdot.com/ADC/Art-ImgScreen-1.nsf/O/A-9GEM84/$FILE/Gustave_moreau-jupiter_and_semele_detail_.Jpg" target="_blank">Jupiter and Semele</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Gustave_Moreau" target="_blank">Gustave Moreau</a></p>
 
-            <h3>The Cyclops</h3>
-            <p>Odilon Redon</p>
+            <h3><a href="https://en.wikipedia.org/wiki/The_Cyclops_(Redon)" target="_blank">The Cyclops</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Odilon_Redon" target="_blank">Odilon Redon</a></p>
 
-            <p>Der Symbolismus, aktiv in Europa von etwa 1880 bis 1900, strebte danach, Ideen und Gefühle durch symbolische Darstellungen und allegorische Inhalte auszudrücken. Künstler wie Gustave Moreau, Odilon Redon und Arnold Böcklin schufen Bilder mit reichen Details und mystischen Inhalten. Der Symbolismus lehnte die realistische Darstellung ab und betonte die Bedeutung innerer Welten und allegorischer Erzählungen. Werke wie Moreaus Jupiter and Semele und Redons The Cyclops sind exemplarisch für die symbolische Tiefe und mystische Atmosphäre dieser Bewegung.</p>
+            <p>Der Symbolismus, aktiv in Europa von etwa 1880 bis 1900, strebte danach, Ideen und Gefühle durch symbolische Darstellungen und allegorische Inhalte auszudrücken. Künstler wie <a href="https://de.wikipedia.org/wiki/Gustave_Moreau" target="_blank">Gustave Moreau</a>, <a href="https://de.wikipedia.org/wiki/Odilon_Redon" target="_blank">Odilon Redon</a> und <a href="https://de.wikipedia.org/wiki/Arnold_B%C3%B6cklin" target="_blank">Arnold Böcklin</a> schufen Bilder mit reichen Details und mystischen Inhalten. Der Symbolismus lehnte die realistische Darstellung ab und betonte die Bedeutung innerer Welten und allegorischer Erzählungen. Werke wie Moreaus <a href="https://artsdot.com/ADC/Art-ImgScreen-1.nsf/O/A-9GEM84/$FILE/Gustave_moreau-jupiter_and_semele_detail_.Jpg" target="_blank">Jupiter and Semele</a> und Redons <a href="https://en.wikipedia.org/wiki/The_Cyclops_(Redon)" target="_blank">The Cyclops</a> sind exemplarisch für die symbolische Tiefe und mystische Atmosphäre dieser Bewegung.</p>
 
             <h2>Weitere Informationen</h2>
             <ul>
@@ -161,8 +172,6 @@
             <a href="#top" class="back-to-top">Zurück nach oben</a>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Symbolismus Geschichte. Alle Rechte vorbehalten.</p>
-    </footer>
+
 </body>
 </html>

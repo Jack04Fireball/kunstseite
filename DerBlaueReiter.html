@@ -12,6 +12,13 @@
             padding: 0;
             background-color: #f4f4f4;
         }
+        a {
+            color: inherit; /* Link-Farbe wie normaler Text */
+            text-decoration: none; /* Keine Unterstreichung */
+        }
+        a:hover {
+            text-decoration: underline; /* Unterstreichung beim Hover */
+        }
         .container {
             width: auto;
             overflow: hidden;
@@ -20,7 +27,7 @@
         header {
             background: #a3685a;
             color: #fff;
-            padding: 5px 0;
+            padding: 10px 0;
             border-bottom: #a3685a 2px solid;
             text-align: center;
             position: fixed;
@@ -29,7 +36,7 @@
         }
         header h1 {
             margin: 0;
-            padding-bottom: 10px;
+            padding-bottom: 0px;
         }
         .main-content {
             display: flex;
@@ -109,7 +116,7 @@
         </svg>
     </a>
     <div class="container main-content">
-        <img src="blau.jpeg" alt="Der Blaue Reiter Kunstwerk">
+        <img src="blau.jpg" alt="Der Blaue Reiter Kunstwerk">
         <div>
             <h2>Kontext</h2>
             <ul>
@@ -120,16 +127,16 @@
             </ul>
 
             <h2>Künstler</h2>
-            <h3>Wassily Kandinsky</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Wassily_Kandinsky" target="_blank">Wassily Kandinsky</a></h3>
             <p>Betonte die spirituelle Kraft der Kunst, gilt als Pionier der abstrakten Malerei</p>
 
-            <h3>Franz Marc</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Franz_Marc" target="_blank">Franz Marc</a></h3>
             <p>Bekannt für seine farbenfrohen, symbolischen Tierdarstellungen</p>
 
-            <h3>August Macke</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/August_Macke" target="_blank">August Macke</a></h3>
             <p>Schuf leuchtende Farbkompositionen, oft Szenen aus dem Alltag</p>
 
-            <h3>Gabriele Münter</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Gabriele_Münter" target="_blank">Gabriele Münter</a></h3>
             <p>Malte expressive Landschaften und Porträts</p>
 
             <h2>Merkmale</h2>
@@ -144,13 +151,13 @@
             <p>Spiritueller Ausdruck, subjektive Erfahrung, Symbolik</p>
 
             <h2>Beispiele</h2>
-            <h3>Composition VII</h3>
-            <p>Wassily Kandinsky</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Kandinsky" target="_blank">Composition VII</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Wassily_Kandinsky" target="_blank">Wassily Kandinsky</a></p>
 
-            <h3>The Large Blue Horses</h3>
-            <p>Franz Marc</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Franz_Marc" target="_blank">The Large Blue Horses</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Franz_Marc" target="_blank">Franz Marc</a></p>
 
-            <p>Der Blaue Reiter war eine Künstlergruppe in München von 1911 bis 1914, die eine spirituelle und symbolische Ausdruckskraft durch abstrakte und farbenfrohe Kunstwerke suchte. Wassily Kandinsky, Franz Marc, August Macke und Gabriele Münter waren führende Köpfe dieser Bewegung. Ihre Werke wie Kandinskys Composition VII und Marcs The Large Blue Horses zeigen die Suche nach einer neuen künstlerischen Sprache, die innere Empfindungen und spirituelle Dimensionen ausdrücken sollte.</p>
+            <p>Der Blaue Reiter war eine Künstlergruppe in München von 1911 bis 1914, die eine spirituelle und symbolische Ausdruckskraft durch abstrakte und farbenfrohe Kunstwerke suchte. <a href="https://de.wikipedia.org/wiki/Wassily_Kandinsky" target="_blank">Wassily Kandinsky</a>, <a href="https://de.wikipedia.org/wiki/Franz_Marc" target="_blank">Franz Marc</a>, <a href="https://de.wikipedia.org/wiki/August_Macke" target="_blank">August Macke</a> und <a href="https://de.wikipedia.org/wiki/Gabriele_Münter" target="_blank">Gabriele Münter</a> waren führende Köpfe dieser Bewegung. Ihre Werke wie Kandinskys <a href="https://de.wikipedia.org/wiki/Kandinsky" target="_blank">Composition VII</a> und Marcs <a href="https://de.wikipedia.org/wiki/Franz_Marc" target="_blank">The Large Blue Horses</a> zeigen die Suche nach einer neuen künstlerischen Sprache, die innere Empfindungen und spirituelle Dimensionen ausdrücken sollte.</p>
 
             <h2>Weitere Informationen</h2>
             <ul>
@@ -165,8 +172,6 @@
             <a href="#top" class="back-to-top">Zurück nach oben</a>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Der Blaue Reiter Geschichte. Alle Rechte vorbehalten.</p>
-    </footer>
+
 </body>
 </html>

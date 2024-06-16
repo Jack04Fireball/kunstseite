@@ -12,6 +12,13 @@
             padding: 0;
             background-color: #f4f4f4;
         }
+        a {
+            color: inherit; /* Link-Farbe wie normaler Text */
+            text-decoration: none; /* Keine Unterstreichung */
+        }
+        a:hover {
+            text-decoration: underline; /* Unterstreichung beim Hover */
+        }
         .container {
             width: auto;
             overflow: hidden;
@@ -20,7 +27,7 @@
         header {
             background: #c5c8c6;
             color: #fff;
-            padding: 5px 0;
+            padding: 10px 0;
             border-bottom: #c5c8c6 2px solid;
             text-align: center;
             position: fixed;
@@ -29,7 +36,7 @@
         }
         header h1 {
             margin: 0;
-            padding-bottom: 10px;
+            padding-bottom: 0px;
         }
         .main-content {
             display: flex;
@@ -120,13 +127,13 @@
             </ul>
 
             <h2>Künstler</h2>
-            <h3>Ernst Ludwig Kirchner</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Ernst_Ludwig_Kirchner" target="_blank">Ernst Ludwig Kirchner</a></h3>
             <p>Gründungsmitglied, bekannt für seine farbintensiven und dynamischen Szenen</p>
 
-            <h3>Erich Heckel</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Erich_Heckel" target="_blank">Erich Heckel</a></h3>
             <p>Schuf Werke mit groben, kantigen Formen und expressiven Farben</p>
 
-            <h3>Karl Schmidt-Rottluff</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Karl_Schmidt-Rottluff" target="_blank">Karl Schmidt-Rottluff</a></h3>
             <p>Verwendete kräftige Farben und reduzierte Formen</p>
 
             <h2>Merkmale</h2>
@@ -141,13 +148,13 @@
             <p>Emotionale Ausdruckskraft, Antikonformismus, künstlerische Freiheit</p>
 
             <h2>Beispiele</h2>
-            <h3>Street, Berlin</h3>
-            <p>Ernst Ludwig Kirchner</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Ernst_Ludwig_Kirchner" target="_blank">Street, Berlin</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Ernst_Ludwig_Kirchner" target="_blank">Ernst Ludwig Kirchner</a></p>
 
-            <h3>Girl with Cat</h3>
-            <p>Karl Schmidt-Rottluff</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Karl_Schmidt-Rottluff" target="_blank">Girl with Cat</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Karl_Schmidt-Rottluff" target="_blank">Karl Schmidt-Rottluff</a></p>
 
-            <p>Die Brücke war eine expressionistische Künstlergruppe in Dresden und später Berlin von 1905 bis 1913. Ernst Ludwig Kirchner, Erich Heckel und Karl Schmidt-Rottluff gehörten zu den Gründungsmitgliedern. Sie strebten nach einem Ausdruck innerer Empfindungen durch kräftige Farben, dynamische Pinselstriche und vereinfachte Formen. Werke wie Kirchners Street, Berlin und Schmidt-Rottluffs Girl with Cat sind typische Beispiele für den emotionalen Ausdruck und die künstlerische Freiheit der Brücke-Künstler.</p>
+            <p>Die Brücke war eine expressionistische Künstlergruppe in Dresden und später Berlin von 1905 bis 1913. <a href="https://de.wikipedia.org/wiki/Ernst_Ludwig_Kirchner" target="_blank">Ernst Ludwig Kirchner</a>, <a href="https://de.wikipedia.org/wiki/Erich_Heckel" target="_blank">Erich Heckel</a> und <a href="https://de.wikipedia.org/wiki/Karl_Schmidt-Rottluff" target="_blank">Karl Schmidt-Rottluff</a> gehörten zu den Gründungsmitgliedern. Sie strebten nach einem Ausdruck innerer Empfindungen durch kräftige Farben, dynamische Pinselstriche und vereinfachte Formen. Werke wie Kirchners <a href="https://de.wikipedia.org/wiki/Ernst_Ludwig_Kirchner" target="_blank">Street, Berlin</a> und Schmidt-Rottluffs <a href="https://de.wikipedia.org/wiki/Karl_Schmidt-Rottluff" target="_blank">Girl with Cat</a> sind typische Beispiele für den emotionalen Ausdruck und die künstlerische Freiheit der Brücke-Künstler.</p>
 
             <h2>Weitere Informationen</h2>
             <ul>
@@ -162,8 +169,6 @@
             <a href="#top" class="back-to-top">Zurück nach oben</a>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Die Brücke Geschichte. Alle Rechte vorbehalten.</p>
-    </footer>
+
 </body>
 </html>

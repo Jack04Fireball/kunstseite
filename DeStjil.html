@@ -20,7 +20,7 @@
         header {
             background: #f0c674;
             color: #fff;
-            padding: 5px 0;
+            padding: 10px 0;
             border-bottom: #f0c674 2px solid;
             text-align: center;
             position: fixed;
@@ -29,7 +29,7 @@
         }
         header h1 {
             margin: 0;
-            padding-bottom: 10px;
+            padding-bottom: 0px;
         }
         .main-content {
             display: flex;
@@ -95,6 +95,15 @@
             left: 10px;
             z-index: 4;
         }
+
+        a {
+            color: inherit; /* Link-Farbe wie normaler Text */
+            text-decoration: none; /* Keine Unterstreichung */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Unterstreichung beim Hover */
+        }
     </style>
 </head>
 <body>
@@ -120,13 +129,13 @@
             </ul>
 
             <h2>Künstler und Architekten</h2>
-            <h3>Piet Mondrian</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Piet_Mondrian" target="_blank">Piet Mondrian</a></h3>
             <p>Begründer der neoplastischen Malerei, bekannt für seine Gitterbilder mit Primärfarben</p>
 
-            <h3>Theo van Doesburg</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Theo_van_Doesburg" target="_blank">Theo van Doesburg</a></h3>
             <p>Gründete die Zeitschrift „De Stijl“, förderte die Idee einer harmonischen Gestaltung</p>
 
-            <h3>Gerrit Rietveld</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Gerrit_Rietveld" target="_blank">Gerrit Rietveld</a></h3>
             <p>Designer und Architekt, schuf das berühmte Rietveld-Schröder-Haus</p>
 
             <h2>Merkmale</h2>
@@ -141,13 +150,13 @@
             <p>Reduktion, universelle Ordnung, Harmonie</p>
 
             <h2>Beispiele</h2>
-            <h3>Composition with Red, Blue, and Yellow</h3>
-            <p>Piet Mondrian</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Komposition_mit_Rot,_Blau_und_Gelb" target="_blank">Composition with Red, Blue, and Yellow</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Piet_Mondrian" target="_blank">Piet Mondrian</a></p>
 
-            <h3>Rietveld-Schröder-Haus</h3>
-            <p>Gerrit Rietveld</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Rietveld-Schr%C3%B6der-Haus" target="_blank">Rietveld-Schröder-Haus</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Gerrit_Rietveld" target="_blank">Gerrit Rietveld</a></p>
 
-            <p>De Stijl, eine niederländische Kunstbewegung von 1917 bis 1931, strebte nach universeller Harmonie durch die Reduktion auf Grundformen und Primärfarben wie Rot, Blau und Gelb. Piet Mondrian, Theo van Doesburg und Gerrit Rietveld waren Schlüsselfiguren dieser Bewegung. Mondrians ikonische Gitterbilder und Rietvelds Rietveld-Schröder-Haus verkörpern die philosophischen Ideale von De Stijl, die eine klare, harmonische Gestaltung und eine Verbindung von Kunst und Leben propagierten.</p>
+            <p>De Stijl, eine niederländische Kunstbewegung von 1917 bis 1931, strebte nach universeller Harmonie durch die Reduktion auf Grundformen und Primärfarben wie Rot, Blau und Gelb. <a href="https://de.wikipedia.org/wiki/Piet_Mondrian" target="_blank">Piet Mondrian</a>, <a href="https://de.wikipedia.org/wiki/Theo_van_Doesburg" target="_blank">Theo van Doesburg</a> und <a href="https://de.wikipedia.org/wiki/Gerrit_Rietveld" target="_blank">Gerrit Rietveld</a> waren Schlüsselfiguren dieser Bewegung. Mondrians ikonische Gitterbilder und Rietvelds <a href="https://de.wikipedia.org/wiki/Rietveld-Schr%C3%B6der-Haus" target="_blank">Rietveld-Schröder-Haus</a> verkörpern die philosophischen Ideale von De Stijl, die eine klare, harmonische Gestaltung und eine Verbindung von Kunst und Leben propagierten.</p>
 
             <h2>Weitere Informationen</h2>
             <ul>
@@ -162,8 +171,6 @@
             <a href="#top" class="back-to-top">Zurück nach oben</a>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 De Stijl Geschichte. Alle Rechte vorbehalten.</p>
-    </footer>
+
 </body>
 </html>

@@ -20,7 +20,7 @@
         header {
             background: #81a2be;
             color: #fff;
-            padding: 5px 0;
+            padding: 10px 0;
             border-bottom: #81a2be 2px solid;
             text-align: center;
             position: fixed;
@@ -29,7 +29,7 @@
         }
         header h1 {
             margin: 0;
-            padding-bottom: 10px;
+            padding-bottom: 0px;
         }
         .main-content {
             display: flex;
@@ -95,6 +95,15 @@
             left: 10px;
             z-index: 4;
         }
+
+        a {
+            color: inherit; /* Link-Farbe wie normaler Text */
+            text-decoration: none; /* Keine Unterstreichung */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Unterstreichung beim Hover */
+        }
     </style>
 </head>
 <body>
@@ -120,13 +129,13 @@
             </ul>
 
             <h2>Künstler</h2>
-            <h3>Salvador Dalí</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Salvador_Dal%C3%AD" target="_blank">Salvador Dalí</a></h3>
             <p>Schuf traumartige, hyperrealistische Bilder, bekannt für seine surrealen Landschaften und symbolischen Inhalte</p>
 
-            <h3>René Magritte</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Ren%C3%A9_Magritte" target="_blank">René Magritte</a></h3>
             <p>Bekannter für seine rätselhaften und paradoxen Bilder</p>
 
-            <h3>Max Ernst</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Max_Ernst" target="_blank">Max Ernst</a></h3>
             <p>Experimentierte mit frottage und collage, schuf fantastische Landschaften</p>
 
             <h2>Merkmale</h2>
@@ -148,13 +157,13 @@
             <p>Erforschung des Unterbewussten, Entgrenzung der Realität</p>
 
             <h2>Beispiele</h2>
-            <h3>The Persistence of Memory</h3>
-            <p>Salvador Dalí</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Die_best%C3%A4ndige_Erinnerung" target="_blank">The Persistence of Memory</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Salvador_Dal%C3%AD" target="_blank">Salvador Dalí</a></p>
 
-            <h3>The Son of Man</h3>
-            <p>René Magritte</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Der_Sohn_des_Mannes" target="_blank">The Son of Man</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Ren%C3%A9_Magritte" target="_blank">René Magritte</a></p>
 
-            <p>Der Surrealismus, hauptsächlich in Europa, besonders in Frankreich, während der 1920er bis 1940er Jahre aktiv, erforschte das Unterbewusste, Träume und die Überwindung der rationalen Realität. Künstler wie Salvador Dalí, René Magritte und Max Ernst schufen traumartige Szenarien, die durch Verfremdung und Illusionen geprägt waren. Der Surrealismus verwendete Techniken wie die automatische Schreibweise, frottage und collage, um die Grenzen der Realität zu sprengen. Werke wie Dalís The Persistence of Memory, Magrittes The Son of Man und Ernsts fantastische Landschaften sind bedeutende Beispiele für diese künstlerische Bewegung.</p>
+            <p>Der Surrealismus, hauptsächlich in Europa, besonders in Frankreich, während der 1920er bis 1940er Jahre aktiv, erforschte das Unterbewusste, Träume und die Überwindung der rationalen Realität. Künstler wie <a href="https://de.wikipedia.org/wiki/Salvador_Dal%C3%AD" target="_blank">Salvador Dalí</a>, <a href="https://de.wikipedia.org/wiki/Ren%C3%A9_Magritte" target="_blank">René Magritte</a> und <a href="https://de.wikipedia.org/wiki/Max_Ernst" target="_blank">Max Ernst</a> schufen traumartige Szenarien, die durch Verfremdung und Illusionen geprägt waren. Der Surrealismus verwendete Techniken wie die automatische Schreibweise, frottage und collage, um die Grenzen der Realität zu sprengen. Werke wie Dalís <a href="https://de.wikipedia.org/wiki/Die_best%C3%A4ndige_Erinnerung" target="_blank">The Persistence of Memory</a>, Magrittes <a href="https://de.wikipedia.org/wiki/Der_Sohn_des_Mannes" target="_blank">The Son of Man</a> und Ernsts fantastische Landschaften sind bedeutende Beispiele für diese künstlerische Bewegung.</p>
 
             <h2>Weitere Informationen</h2>
             <ul>
@@ -169,8 +178,6 @@
             <a href="#top" class="back-to-top">Zurück nach oben</a>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Surrealismus Geschichte. Alle Rechte vorbehalten.</p>
-    </footer>
+
 </body>
 </html>

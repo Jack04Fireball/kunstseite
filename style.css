@@ -214,9 +214,38 @@ svg {
     .timeline .year {
         font-size: 12px;
     }
+
+    header {
+        height: 80px;
+    }
+
+    ul {
+        font-size: 24pt;
+    }
+
+    li {
+        margin-top: 20px;
+        height: 50px;
+        padding-top: 25px;
+    }
+
+    ul a {
+        margin-left: 20px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer p {
+        font-size: 12pt;
+    }
+
+    .pschrift {
+        font-size: 14pt;
+    }
 }
 
-/* List item background colors */
 /* List item background colors */
 .symbolismus {
     background: linear-gradient(to right, transparent calc((1880 - 1880) / 60 * 100%), #f0c674 calc((1880 - 1880) / 60 * 100%), #f0c674 calc((1910 - 1880) / 60 * 100%), transparent calc((1910 - 1880) / 60 * 100%));
@@ -359,4 +388,53 @@ svg {
 
 .nav-dot.active {
     background-color: white;
+}
+
+@media (max-width: 600px) {
+    .timeline {
+        max-width: 100%;
+    }
+
+    .timeline .year {
+        font-size: 12px;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    ul {
+        font-size: 24pt;
+    }
+
+    li {
+        margin-top: 20px;
+        height: 50px;
+        padding-top: 25px;
+    }
+
+    ul a {
+        margin-left: 20px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer p {
+        font-size: 12pt;
+    }
+
+    .pschrift {
+        font-size: 14pt;
+    }
+
+    .slider .slide img {
+        width: 100%;
+        max-height: 200px;
+    }
+
+    .slide .text {
+        font-size: 12pt;
+    }
 }

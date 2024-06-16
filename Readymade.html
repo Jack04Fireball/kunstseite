@@ -20,7 +20,7 @@
         header {
             background: #b294bb;
             color: #fff;
-            padding: 5px 0;
+            padding: 10px 0;
             border-bottom: #b294bb 2px solid;
             text-align: center;
             position: fixed;
@@ -29,7 +29,7 @@
         }
         header h1 {
             margin: 0;
-            padding-bottom: 10px;
+            padding-bottom: 0px;
         }
         .main-content {
             display: flex;
@@ -95,6 +95,15 @@
             left: 10px;
             z-index: 4;
         }
+
+        a {
+            color: inherit; /* Link-Farbe wie normaler Text */
+            text-decoration: none; /* Keine Unterstreichung */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Unterstreichung beim Hover */
+        }
     </style>
 </head>
 <body>
@@ -120,7 +129,7 @@
             </ul>
 
             <h2>Künstler</h2>
-            <h3>Marcel Duchamp</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Marcel_Duchamp" target="_blank">Marcel Duchamp</a></h3>
             <p>Pionier des Readymade, erklärte alltägliche Gegenstände zur Kunst durch Auswahl und Umbenennung</p>
 
             <h2>Merkmale</h2>
@@ -135,13 +144,13 @@
             <p>Kunst ist das, was der Künstler als Kunst definiert, Umdeutung von Objekten</p>
 
             <h2>Beispiele</h2>
-            <h3>Fountain</h3>
-            <p>Marcel Duchamp</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Fountain_(Kunstwerk)" target="_blank">Fountain</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Marcel_Duchamp" target="_blank">Marcel Duchamp</a></p>
 
-            <h3>Bicycle Wheel</h3>
-            <p>Marcel Duchamp</p>
+            <h3><a href="https://en.wikipedia.org/wiki/Bicycle_Wheel" target="_blank">Bicycle Wheel</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Marcel_Duchamp" target="_blank">Marcel Duchamp</a></p>
 
-            <p>Das Readymade-Konzept, von Marcel Duchamp seit etwa 1913 entwickelt, stellte Alltagsgegenstände als Kunst dar, indem sie aus ihrem Kontext genommen und in einer neuen künstlerischen Bedeutung präsentiert wurden. Duchamp hinterfragte den traditionellen Kunstbegriff und provozierte durch Werke wie Fountain und Bicycle Wheel, die konventionelle Vorstellungen von Kunst und Ästhetik herausforderten. Das Readymade hatte einen tiefgreifenden Einfluss auf die Konzeptkunst und die Erweiterung des Kunstverständnisses im 20. Jahrhundert.</p>
+            <p>Das Readymade-Konzept, von <a href="https://de.wikipedia.org/wiki/Marcel_Duchamp" target="_blank">Marcel Duchamp</a> seit etwa 1913 entwickelt, stellte Alltagsgegenstände als Kunst dar, indem sie aus ihrem Kontext genommen und in einer neuen künstlerischen Bedeutung präsentiert wurden. Duchamp hinterfragte den traditionellen Kunstbegriff und provozierte durch Werke wie <a href="https://de.wikipedia.org/wiki/Fountain_(Kunstwerk)" target="_blank">Fountain</a> und <a href="https://en.wikipedia.org/wiki/Bicycle_Wheel" target="_blank">Bicycle Wheel</a>, die konventionelle Vorstellungen von Kunst und Ästhetik herausforderten. Das Readymade hatte einen tiefgreifenden Einfluss auf die Konzeptkunst und die Erweiterung des Kunstverständnisses im 20. Jahrhundert.</p>
 
             <h2>Weitere Informationen</h2>
             <ul>
@@ -156,8 +165,6 @@
             <a href="#top" class="back-to-top">Zurück nach oben</a>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Readymade Geschichte. Alle Rechte vorbehalten.</p>
-    </footer>
+
 </body>
 </html>

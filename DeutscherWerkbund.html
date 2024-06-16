@@ -20,7 +20,7 @@
         header {
             background: #cc6666;
             color: #fff;
-            padding: 5px 0;
+            padding: 10px 0;
             border-bottom: #cc6666 2px solid;
             text-align: center;
             position: fixed;
@@ -29,7 +29,7 @@
         }
         header h1 {
             margin: 0;
-            padding-bottom: 10px;
+            padding-bottom: 0px;
         }
         .main-content {
             display: flex;
@@ -95,6 +95,15 @@
             left: 10px;
             z-index: 4;
         }
+
+        a {
+            color: inherit; /* Link-Farbe wie normaler Text */
+            text-decoration: none; /* Keine Unterstreichung */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Unterstreichung beim Hover */
+        }
     </style>
 </head>
 <body>
@@ -120,13 +129,13 @@
             </ul>
 
             <h2>Beteiligte</h2>
-            <h3>Peter Behrens</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Peter_Behrens" target="_blank">Peter Behrens</a></h3>
             <p>Pionier im Industrie-Design, arbeitete für AEG</p>
 
-            <h3>Walter Gropius</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Walter_Gropius" target="_blank">Walter Gropius</a></h3>
             <p>Mitgründer des Bauhauses, beteiligte sich an Werkbund-Ausstellungen</p>
 
-            <h3>Henry van de Velde</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Henry_van_de_Velde" target="_blank">Henry van de Velde</a></h3>
             <p>Designer und Architekt, prägte die Ästhetik des Werkbunds</p>
 
             <h2>Merkmale</h2>
@@ -141,13 +150,13 @@
             <p>Qualität durch Gestaltung, Standardisierung, Modernität</p>
 
             <h2>Beispiele</h2>
-            <h3>AEG Turbinenhalle</h3>
-            <p>Peter Behrens</p>
+            <h3><a href="https://de.wikipedia.org/wiki/AEG_Turbinenfabrik" target="_blank">AEG Turbinenhalle</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Peter_Behrens" target="_blank">Peter Behrens</a></p>
 
-            <h3>Werkbund-Ausstellung Köln 1914</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Werkbund-Ausstellung_1914" target="_blank">Werkbund-Ausstellung Köln 1914</a></h3>
             <p>Beispiel für die Verbindung von Kunst und Industrie</p>
 
-            <p>Der Deutsche Werkbund, gegründet 1907, war eine Vereinigung von Künstlern, Architekten und Designern in Deutschland, die Qualität und Modernität im Industriedesign förderte. Peter Behrens, Walter Gropius und Henry van de Velde gehörten zu den führenden Köpfen. Der Werkbund beeinflusste maßgeblich die Entwicklung des Bauhauses, indem er eine enge Verbindung von Kunst, Industrie und Handwerk propagierte. Beispiele wie die AEG Turbinenhalle von Behrens und die Werkbund-Ausstellung Köln 1914 verdeutlichen den Einfluss dieser Bewegung auf das moderne Design.</p>
+            <p>Der Deutsche Werkbund, gegründet 1907, war eine Vereinigung von Künstlern, Architekten und Designern in Deutschland, die Qualität und Modernität im Industriedesign förderte. <a href="https://de.wikipedia.org/wiki/Peter_Behrens" target="_blank">Peter Behrens</a>, <a href="https://de.wikipedia.org/wiki/Walter_Gropius" target="_blank">Walter Gropius</a> und <a href="https://de.wikipedia.org/wiki/Henry_van_de_Velde" target="_blank">Henry van de Velde</a> gehörten zu den führenden Köpfen. Der Werkbund beeinflusste maßgeblich die Entwicklung des Bauhauses, indem er eine enge Verbindung von Kunst, Industrie und Handwerk propagierte. Beispiele wie die <a href="https://de.wikipedia.org/wiki/AEG_Turbinenfabrik" target="_blank">AEG Turbinenhalle</a> von Behrens und die <a href="https://de.wikipedia.org/wiki/Werkbund-Ausstellung_1914" target="_blank">Werkbund-Ausstellung Köln 1914</a> verdeutlichen den Einfluss dieser Bewegung auf das moderne Design.</p>
 
             <h2>Weitere Informationen</h2>
             <ul>
@@ -162,8 +171,6 @@
             <a href="#top" class="back-to-top">Zurück nach oben</a>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Deutscher Werkbund Geschichte. Alle Rechte vorbehalten.</p>
-    </footer>
+
 </body>
 </html>

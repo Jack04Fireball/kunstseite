@@ -20,7 +20,7 @@
         header {
             background: #de935f;
             color: #fff;
-            padding: 5px 0;
+            padding: 10px 0;
             border-bottom: #de935f 2px solid;
             text-align: center;
             position: fixed;
@@ -29,7 +29,7 @@
         }
         header h1 {
             margin: 0;
-            padding-bottom: 10px;
+            padding-bottom: 0px;
         }
         .main-content {
             display: flex;
@@ -95,6 +95,15 @@
             left: 10px;
             z-index: 4;
         }
+
+        a {
+            color: inherit; /* Link-Farbe wie normaler Text */
+            text-decoration: none; /* Keine Unterstreichung */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Unterstreichung beim Hover */
+        }
     </style>
 </head>
 <body>
@@ -120,16 +129,16 @@
             </ul>
 
             <h2>Künstler und Architekten</h2>
-            <h3>Walter Gropius</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Walter_Gropius" target="_blank">Walter Gropius</a></h3>
             <p>Gründer des Bauhauses, Betonung auf Funktionalität und Ästhetik</p>
 
-            <h3>Ludwig Mies van der Rohe</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Ludwig_Mies_van_der_Rohe" target="_blank">Ludwig Mies van der Rohe</a></h3>
             <p>Entwickelte das Konzept des offenen Grundrisses und die Verwendung moderner Materialien</p>
 
-            <h3>Paul Klee</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Paul_Klee" target="_blank">Paul Klee</a></h3>
             <p>Einflussreicher Lehrer, bekannt für farbenfrohe abstrakte Werke</p>
 
-            <h3>Wassily Kandinsky</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Wassily_Kandinsky" target="_blank">Wassily Kandinsky</a></h3>
             <p>Verknüpfte Musik und Malerei, prägte die abstrakte Kunst am Bauhaus</p>
 
             <h2>Merkmale</h2>
@@ -151,13 +160,13 @@
             <p>Form folgt Funktion, Einheit von Kunst und Technik</p>
 
             <h2>Beispiele</h2>
-            <h3>Bauhaus-Gebäude in Dessau</h3>
-            <p>Entworfen von Walter Gropius</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Bauhaus_Geb%C3%A4ude" target="_blank">Bauhaus-Gebäude in Dessau</a></h3>
+            <p>Entworfen von <a href="https://de.wikipedia.org/wiki/Walter_Gropius" target="_blank">Walter Gropius</a></p>
 
-            <h3>Barcelona-Pavillon</h3>
-            <p>Entworfen von Ludwig Mies van der Rohe</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Barcelona-Pavillon" target="_blank">Barcelona-Pavillon</a></h3>
+            <p>Entworfen von <a href="https://de.wikipedia.org/wiki/Ludwig_Mies_van_der_Rohe" target="_blank">Ludwig Mies van der Rohe</a></p>
 
-            <p>Das Bauhaus, gegründet von Walter Gropius im Jahr 1919, revolutionierte die Kunst-, Design- und Architekturwelt des frühen 20. Jahrhunderts. Mit Standorten in Weimar, Dessau und Berlin verfolgte es das Ziel, Kunst, Handwerk und Technik zu integrieren und eine neue Design-Philosophie zu schaffen. Betont wurden Funktionalität und Ästhetik, wobei Form der Funktion folgen sollte. Künstler wie Wassily Kandinsky und Paul Klee prägten das Bauhaus mit ihrer abstrakten Kunst und der Verknüpfung von Musik und Malerei. Bauhaus-Gebäude wie das Dessauer Bauhaus (von Gropius entworfen) und der Barcelona-Pavillon (von Ludwig Mies van der Rohe) stehen als Meisterwerke moderner Architektur und Design-Philosophie.</p>
+            <p>Das Bauhaus, gegründet von <a href="https://de.wikipedia.org/wiki/Walter_Gropius" target="_blank">Walter Gropius</a> im Jahr 1919, revolutionierte die Kunst-, Design- und Architekturwelt des frühen 20. Jahrhunderts. Mit Standorten in Weimar, Dessau und Berlin verfolgte es das Ziel, Kunst, Handwerk und Technik zu integrieren und eine neue Design-Philosophie zu schaffen. Betont wurden Funktionalität und Ästhetik, wobei Form der Funktion folgen sollte. Künstler wie <a href="https://de.wikipedia.org/wiki/Wassily_Kandinsky" target="_blank">Wassily Kandinsky</a> und <a href="https://de.wikipedia.org/wiki/Paul_Klee" target="_blank">Paul Klee</a> prägten das Bauhaus mit ihrer abstrakten Kunst und der Verknüpfung von Musik und Malerei. Bauhaus-Gebäude wie das <a href="https://de.wikipedia.org/wiki/Bauhaus_Geb%C3%A4ude" target="_blank">Dessauer Bauhaus</a> (von Gropius entworfen) und der <a href="https://de.wikipedia.org/wiki/Barcelona-Pavillon" target="_blank">Barcelona-Pavillon</a> (von Ludwig Mies van der Rohe) stehen als Meisterwerke moderner Architektur und Design-Philosophie.</p>
 
             <h2>Weitere Informationen</h2>
             <ul>
@@ -176,8 +185,6 @@
             <a href="#top" class="back-to-top">Zurück nach oben</a>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Bauhaus Geschichte. Alle Rechte vorbehalten.</p>
-    </footer>
+
 </body>
 </html>

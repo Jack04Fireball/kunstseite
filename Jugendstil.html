@@ -12,6 +12,16 @@
             padding: 0;
             background-color: #f4f4f4;
         }
+
+        a {
+            color: inherit; /* Link-Farbe wie normaler Text */
+            text-decoration: none; /* Keine Unterstreichung */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Unterstreichung beim Hover */
+        }
+
         .container {
             width: auto;
             overflow: hidden;
@@ -20,7 +30,7 @@
         header {
             background: #8abeb7;
             color: #fff;
-            padding: 5px 0;
+            padding: 10px 0;
             border-bottom: #8abeb7 2px solid;
             text-align: center;
             position: fixed;
@@ -29,7 +39,7 @@
         }
         header h1 {
             margin: 0;
-            padding-bottom: 10px;
+            padding-bottom: 0px;
         }
         .main-content {
             display: flex;
@@ -120,13 +130,13 @@
             </ul>
 
             <h2>Künstler und Architekten</h2>
-            <h3>Gustav Klimt</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Gustav_Klimt" target="_blank">Gustav Klimt</a></h3>
             <p>Bekannter Maler des Wiener Jugendstils, schuf ornamentale und symbolische Gemälde</p>
 
-            <h3>Antoni Gaudí</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Antoni_Gaud%C3%AD" target="_blank">Antoni Gaudí</a></h3>
             <p>Architekt, bekannt für seine organischen, skulpturalen Gebäude in Barcelona</p>
 
-            <h3>Victor Horta</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Victor_Horta" target="_blank">Victor Horta</a></h3>
             <p>Pionier des belgischen Jugendstils, gestaltete zahlreiche Gebäude und Interieurs</p>
 
             <h2>Merkmale</h2>
@@ -148,13 +158,13 @@
             <p>Integration von Kunst und Design, Schönheit im Alltag</p>
 
             <h2>Beispiele</h2>
-            <h3>The Kiss</h3>
-            <p>Gustav Klimt</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Der_Kuss_(Gem%C3%A4lde)" target="_blank">The Kiss</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Gustav_Klimt" target="_blank">Gustav Klimt</a></p>
 
-            <h3>Casa Batlló</h3>
-            <p>Antoni Gaudí</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Casa_Batll%C3%B3" target="_blank">Casa Batlló</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Antoni_Gaud%C3%AD" target="_blank">Antoni Gaudí</a></p>
 
-            <p>Der Jugendstil, etwa von 1890 bis 1910 in Europa verbreitet, strebte nach einer Vereinigung von Kunst und Leben durch organische Formen, reichhaltige Dekorationen und die Integration von Kunsthandwerk in Architektur und Design. Künstler wie Gustav Klimt in Wien, Antoni Gaudí in Barcelona und Victor Horta in Belgien prägten diese Bewegung. Ihre Werke, wie Klimts The Kiss und Gaudís Casa Batlló, sind bekannt für ihre floralen Motive, geschwungenen Linien und die Verwendung von Materialien wie Glas und Keramik. Der Jugendstil betonte die Schönheit im Alltag und hatte einen großen Einfluss auf die moderne Architektur und das Design.</p>
+            <p>Der Jugendstil, etwa von 1890 bis 1910 in Europa verbreitet, strebte nach einer Vereinigung von Kunst und Leben durch organische Formen, reichhaltige Dekorationen und die Integration von Kunsthandwerk in Architektur und Design. Künstler wie <a href="https://de.wikipedia.org/wiki/Gustav_Klimt" target="_blank">Gustav Klimt</a> in Wien, <a href="https://de.wikipedia.org/wiki/Antoni_Gaud%C3%AD" target="_blank">Antoni Gaudí</a> in Barcelona und <a href="https://de.wikipedia.org/wiki/Victor_Horta" target="_blank">Victor Horta</a> in Belgien prägten diese Bewegung. Ihre Werke, wie Klimts <a href="https://de.wikipedia.org/wiki/Der_Kuss_(Gem%C3%A4lde)" target="_blank">The Kiss</a> und Gaudís <a href="https://de.wikipedia.org/wiki/Casa_Batll%C3%B3" target="_blank">Casa Batlló</a>, sind bekannt für ihre floralen Motive, geschwungenen Linien und die Verwendung von Materialien wie Glas und Keramik. Der Jugendstil betonte die Schönheit im Alltag und hatte einen großen Einfluss auf die moderne Architektur und das Design.</p>
 
             <h2>Weitere Informationen</h2>
             <ul>
@@ -169,8 +179,6 @@
             <a href="#top" class="back-to-top">Zurück nach oben</a>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Jugendstil Geschichte. Alle Rechte vorbehalten.</p>
-    </footer>
+
 </body>
 </html>

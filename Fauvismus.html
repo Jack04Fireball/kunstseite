@@ -12,6 +12,13 @@
             padding: 0;
             background-color: #f4f4f4;
         }
+        a {
+            color: inherit; /* Link-Farbe wie normaler Text */
+            text-decoration: none; /* Keine Unterstreichung */
+        }
+        a:hover {
+            text-decoration: underline; /* Unterstreichung beim Hover */
+        }
         .container {
             width: auto;
             overflow: hidden;
@@ -20,7 +27,7 @@
         header {
             background: #81a2be;
             color: #fff;
-            padding: 5px 0;
+            padding: 10px 0;
             border-bottom: #81a2be 2px solid;
             text-align: center;
             position: fixed;
@@ -29,7 +36,7 @@
         }
         header h1 {
             margin: 0;
-            padding-bottom: 10px;
+            padding-bottom: 0px;
         }
         .main-content {
             display: flex;
@@ -88,7 +95,6 @@
             text-align: center;
             margin-top: 20px;
         }
-
         svg {
             position: fixed;
             top: 10px;
@@ -120,13 +126,13 @@
             </ul>
 
             <h2>Künstler</h2>
-            <h3>Henri Matisse</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Henri_Matisse" target="_blank">Henri Matisse</a></h3>
             <p>Führte die Bewegung an, bekannt für seine leuchtenden Farben und einfachen Formen</p>
 
-            <h3>André Derain</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/André_Derain" target="_blank">André Derain</a></h3>
             <p>Nutzte intensive Farben und vereinfachte Kompositionen</p>
 
-            <h3>Maurice de Vlaminck</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Maurice_de_Vlaminck" target="_blank">Maurice de Vlaminck</a></h3>
             <p>Schuf dynamische Landschaften mit kräftigen Farbtönen</p>
 
             <h2>Merkmale</h2>
@@ -141,13 +147,13 @@
             <p>Freiheit des künstlerischen Ausdrucks, Fokus auf Farbe als Ausdrucksmittel</p>
 
             <h2>Beispiele</h2>
-            <h3>Woman with a Hat</h3>
-            <p>Henri Matisse</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Woman_with_a_Hat" target="_blank">Woman with a Hat</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Henri_Matisse" target="_blank">Henri Matisse</a></p>
 
-            <h3>The Turning Road, L’Estaque</h3>
-            <p>André Derain</p>
+            <h3><a href="https://de.wikipedia.org/wiki/The_Turning_Road,_L'Estaque" target="_blank">The Turning Road, L’Estaque</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/André_Derain" target="_blank">André Derain</a></p>
 
-            <p>Der Fauvismus, aktiv etwa von 1905 bis 1908 in Frankreich, war eine radikale moderne Bewegung, die sich durch die intensive und unkonventionelle Verwendung von Farbe auszeichnete. Henri Matisse, André Derain und Maurice de Vlaminck waren führende Vertreter dieser Bewegung. Ihre Werke zeichnen sich durch leuchtende Farben, einfache Formen und eine expressive Malweise aus. Der Fauvismus beeinflusste den Expressionismus und betonte die Freiheit des künstlerischen Ausdrucks über die realistische Darstellung. Gemälde wie Matisses Woman with a Hat und Derains The Turning Road, L’Estaque sind bedeutende Beispiele dieser künstlerischen Revolution.</p>
+            <p>Der Fauvismus, aktiv etwa von 1905 bis 1908 in Frankreich, war eine radikale moderne Bewegung, die sich durch die intensive und unkonventionelle Verwendung von Farbe auszeichnete. <a href="https://de.wikipedia.org/wiki/Henri_Matisse" target="_blank">Henri Matisse</a>, <a href="https://de.wikipedia.org/wiki/André_Derain" target="_blank">André Derain</a> und <a href="https://de.wikipedia.org/wiki/Maurice_de_Vlaminck" target="_blank">Maurice de Vlaminck</a> waren führende Vertreter dieser Bewegung. Ihre Werke zeichnen sich durch leuchtende Farben, einfache Formen und eine expressive Malweise aus. Der Fauvismus beeinflusste den Expressionismus und betonte die Freiheit des künstlerischen Ausdrucks über die realistische Darstellung. Gemälde wie Matisses <a href="https://de.wikipedia.org/wiki/Woman_with_a_Hat" target="_blank">Woman with a Hat</a> und Derains <a href="https://de.wikipedia.org/wiki/The_Turning_Road,_L'Estaque" target="_blank">The Turning Road, L’Estaque</a> sind bedeutende Beispiele dieser künstlerischen Revolution.</p>
 
             <h2>Weitere Informationen</h2>
             <ul>
@@ -162,8 +168,5 @@
             <a href="#top" class="back-to-top">Zurück nach oben</a>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Fauvismus Geschichte. Alle Rechte vorbehalten.</p>
-    </footer>
 </body>
 </html>

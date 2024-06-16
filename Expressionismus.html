@@ -12,6 +12,13 @@
             padding: 0;
             background-color: #f4f4f4;
         }
+        a {
+            color: inherit; /* Link-Farbe wie normaler Text */
+            text-decoration: none; /* Keine Unterstreichung */
+        }
+        a:hover {
+            text-decoration: underline; /* Unterstreichung beim Hover */
+        }
         .container {
             width: auto;
             overflow: hidden;
@@ -20,7 +27,7 @@
         header {
             background: #b294bb;
             color: #fff;
-            padding: 5px 0;
+            padding: 10px 0;
             border-bottom: #b294bb 2px solid;
             text-align: center;
             position: fixed;
@@ -29,7 +36,7 @@
         }
         header h1 {
             margin: 0;
-            padding-bottom: 10px;
+            padding-bottom: 0px;
         }
         .main-content {
             display: flex;
@@ -105,13 +112,11 @@
     </header>
     <a href="index.html">
         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M15 6L9 12L15 18" stroke="white" stroke
-            width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M15 6L9 12L15 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
     </a>
     <div class="container main-content">
-        <img
-        src="exp.jpeg" alt="Expressionismus Kunstwerk">
+        <img src="exp.jpeg" alt="Expressionismus Kunstwerk">
         <div>
             <h2>Kontext</h2>
             <ul>
@@ -122,13 +127,13 @@
             </ul>
 
             <h2>Künstler</h2>
-            <h3>Edvard Munch</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Edvard_Munch" target="_blank">Edvard Munch</a></h3>
             <p>Schuf eindrucksvolle Gemälde, die psychische Zustände ausdrücken</p>
 
-            <h3>Egon Schiele</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Egon_Schiele" target="_blank">Egon Schiele</a></h3>
             <p>Bekannt für seine expressiven Aktzeichnungen und Porträts</p>
 
-            <h3>Oskar Kokoschka</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Oskar_Kokoschka" target="_blank">Oskar Kokoschka</a></h3>
             <p>Malte intensive Porträts und Szenen, die innere Konflikte darstellen</p>
 
             <h2>Merkmale</h2>
@@ -143,13 +148,13 @@
             <p>Subjektivität, Ausdruck von Emotionen, gesellschaftliche Kritik</p>
 
             <h2>Beispiele</h2>
-            <h3>The Scream</h3>
-            <p>Edvard Munch</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Der_Schrei_der_Natur" target="_blank">The Scream</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Edvard_Munch" target="_blank">Edvard Munch</a></p>
 
-            <h3>Portrait of Wally</h3>
-            <p>Egon Schiele</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Porträt_der_Wally_Neuzil" target="_blank">Portrait of Wally</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Egon_Schiele" target="_blank">Egon Schiele</a></p>
 
-            <p>Der Expressionismus war eine bedeutende Kunstbewegung in Europa, besonders in Deutschland und Österreich, während des frühen 20. Jahrhunderts. Etwa von 1905 bis 1920 brachten Künstler wie Edvard Munch, Egon Schiele und Oskar Kokoschka ihre inneren Gefühle und Erfahrungen durch verzerrte Formen, intensive Farben und expressiven Pinselstrich zum Ausdruck. Der Expressionismus beeinflusste nicht nur die Malerei, sondern auch Film, Theater und Literatur. Werke wie Munchs The Scream, Schieles Portrait of Wally und Kokoschkas Porträts sind ikonische Beispiele für die subjektive Interpretation und gesellschaftliche Kritik dieser Bewegung.</p>
+            <p>Der Expressionismus war eine bedeutende Kunstbewegung in Europa, besonders in Deutschland und Österreich, während des frühen 20. Jahrhunderts. Etwa von 1905 bis 1920 brachten Künstler wie <a href="https://de.wikipedia.org/wiki/Edvard_Munch" target="_blank">Edvard Munch</a>, <a href="https://de.wikipedia.org/wiki/Egon_Schiele" target="_blank">Egon Schiele</a> und <a href="https://de.wikipedia.org/wiki/Oskar_Kokoschka" target="_blank">Oskar Kokoschka</a> ihre inneren Gefühle und Erfahrungen durch verzerrte Formen, intensive Farben und expressiven Pinselstrich zum Ausdruck. Der Expressionismus beeinflusste nicht nur die Malerei, sondern auch Film, Theater und Literatur. Werke wie Munchs <a href="https://de.wikipedia.org/wiki/Der_Schrei_der_Natur" target="_blank">The Scream</a>, Schieles <a href="https://de.wikipedia.org/wiki/Porträt_der_Wally_Neuzil" target="_blank">Portrait of Wally</a> und Kokoschkas Porträts sind ikonische Beispiele für die subjektive Interpretation und gesellschaftliche Kritik dieser Bewegung.</p>
 
             <h2>Weitere Informationen</h2>
             <ul>
@@ -164,8 +169,5 @@
             <a href="#top" class="back-to-top">Zurück nach oben</a>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Expressionismus Geschichte. Alle Rechte vorbehalten.</p>
-    </footer>
 </body>
 </html>

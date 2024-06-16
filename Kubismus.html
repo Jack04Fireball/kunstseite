@@ -12,6 +12,16 @@
             padding: 0;
             background-color: #f4f4f4;
         }
+
+        a {
+            color: inherit; /* Link-Farbe wie normaler Text */
+            text-decoration: none; /* Keine Unterstreichung */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Unterstreichung beim Hover */
+        }
+
         .container {
             width: auto;
             overflow: hidden;
@@ -20,7 +30,7 @@
         header {
             background: #de935f;
             color: #fff;
-            padding: 5px 0;
+            padding: 10px 0;
             border-bottom: #de935f 2px solid;
             text-align: center;
             position: fixed;
@@ -29,7 +39,7 @@
         }
         header h1 {
             margin: 0;
-            padding-bottom: 10px;
+            padding-bottom: 0px;
         }
         .main-content {
             display: flex;
@@ -120,13 +130,13 @@
             </ul>
 
             <h2>Künstler</h2>
-            <h3>Pablo Picasso</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Pablo_Picasso" target="_blank">Pablo Picasso</a></h3>
             <p>Pionier des Kubismus, entwickelte zusammen mit Braque die kubistische Bildsprache</p>
 
-            <h3>Georges Braque</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Georges_Braque" target="_blank">Georges Braque</a></h3>
             <p>Mitbegründer des Kubismus, experimentierte mit Formen und Perspektiven</p>
 
-            <h3>Juan Gris</h3>
+            <h3><a href="https://de.wikipedia.org/wiki/Juan_Gris" target="_blank">Juan Gris</a></h3>
             <p>Weiterentwickler des Kubismus, bekannt für seine strukturierten und klaren Kompositionen</p>
 
             <h2>Merkmale</h2>
@@ -141,13 +151,13 @@
             <p>Auflösung der traditionellen Darstellung, Erforschung von Raum und Form</p>
 
             <h2>Beispiele</h2>
-            <h3>Les Demoiselles d’Avignon</h3>
-            <p>Pablo Picasso</p>
+            <h3><a href="https://de.wikipedia.org/wiki/Les_Demoiselles_d’Avignon" target="_blank">Les Demoiselles d’Avignon</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Pablo_Picasso" target="_blank">Pablo Picasso</a></p>
 
-            <h3>Violin and Candlestick</h3>
-            <p>Georges Braque</p>
+            <h3><a href="https://en.wikipedia.org/wiki/Violin_and_Candlestick" target="_blank">Violin and Candlestick</a></h3>
+            <p><a href="https://de.wikipedia.org/wiki/Georges_Braque" target="_blank">Georges Braque</a></p>
 
-            <p>Der Kubismus, in Frankreich von etwa 1907 bis 1914 entwickelt, zerlegte Formen in geometrische Bestandteile und zeigte Objekte aus verschiedenen Perspektiven gleichzeitig. Pablo Picasso, Georges Braque und Juan Gris waren führende Köpfe dieser Bewegung. Ihre Werke sind durch die Verwendung von geometrischen Formen, fragmentierte Darstellungen und simultane Perspektiven gekennzeichnet. Der Kubismus erforschte Raum und Form auf neue Weise und hatte einen tiefgreifenden Einfluss auf die moderne Kunst. Gemälde wie Picassos Les Demoiselles d’Avignon und Braques Violin and Candlestick sind wegweisend für diese revolutionäre Herangehensweise an die Darstellung von Realität.</p>
+            <p>Der Kubismus, in Frankreich von etwa 1907 bis 1914 entwickelt, zerlegte Formen in geometrische Bestandteile und zeigte Objekte aus verschiedenen Perspektiven gleichzeitig. <a href="https://de.wikipedia.org/wiki/Pablo_Picasso" target="_blank">Pablo Picasso</a>, <a href="https://de.wikipedia.org/wiki/Georges_Braque" target="_blank">Georges Braque</a> und <a href="https://de.wikipedia.org/wiki/Juan_Gris" target="_blank">Juan Gris</a> waren führende Köpfe dieser Bewegung. Ihre Werke sind durch die Verwendung von geometrischen Formen, fragmentierte Darstellungen und simultane Perspektiven gekennzeichnet. Der Kubismus erforschte Raum und Form auf neue Weise und hatte einen tiefgreifenden Einfluss auf die moderne Kunst. Gemälde wie Picassos <a href="https://de.wikipedia.org/wiki/Les_Demoiselles_d’Avignon" target="_blank">Les Demoiselles d’Avignon</a> und Braques <a href="https://en.wikipedia.org/wiki/Violin_and_Candlestick" target="_blank">Violin and Candlestick</a> sind wegweisend für diese revolutionäre Herangehensweise an die Darstellung von Realität.</p>
 
             <h2>Weitere Informationen</h2>
             <ul>
@@ -162,8 +172,6 @@
             <a href="#top" class="back-to-top">Zurück nach oben</a>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Kubismus Geschichte. Alle Rechte vorbehalten.</p>
-    </footer>
+
 </body>
 </html>
